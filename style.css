@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #002219;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.contact-info span {
+  margin-right: 20px;
+  text-decoration: none !important;
+  color: #fff !important;
+}
+.social-icons a {
+  text-decoration: none !important;
+  color: #fff !important;
+  margin-left: 15px;
+  
+}
+.main-nav {
+  background-color: #002219;
+  color: #fff !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #1f3d2c;
+  position: relative;
+  z-index: 999;
+  top: 40px;
+  left: 0;
+  width: 100%;
+
+
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.highlight {
+  color: #85c41c;
+}
+.nav-links-de {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links-de li a {
+  font-weight: 500;
+  transition: color 0.3s;
+  color: #fff ;
+text-decoration: none;
+}
+.nav-links-de li a:hover {
+  color: #85c41c;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute; /* to position overlay inside */
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/DSC00115.JPG');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  overflow: hidden;
+  left: 0;
+}
+
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* blackish overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  text-align: left;
+  padding: 0 150px;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin: 20px 0;
+}
+
+.hero-content .subtext {
+  margin-bottom: 30px;
+  color: #ccc;
+  max-width: 700px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.cta-btn {
+  background-color: #85c41c;
+  color: #000;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.hero-image img {
+  width: 380px;
+  max-width: 90%;
+}
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 3;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* blackish overlay */
+  z-index: 1;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #85c41c;
+}
+
+.slide.active {
+  opacity: 1;
+}
+.footer {
+  background-color: #002219;
+  color: #fff;
+  padding: 40px 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a4f3d;
+  padding-bottom: 30px;
+}
+.footer-column {
+  flex: 1 1 200px;
+  margin: 15px;
+}
+.footer-column h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column li {
+  margin: 8px 0;
+  color: #c0c0c0;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.subscribe-form input {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 25px;
+  background-color: #0f2516;
+  color: #fff;
+  outline: none;
+}
+.subscribe-form button {
+  background-color: #85c41c;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25D366;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-btn img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Responsive Styles */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav-links-de {
+    position: absolute;
+    right: -100%;
+    top: 60px;
+    flex-direction: column;
+    background-color: #0f2516;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    gap: 0;
+  }
+
+  .nav-links-de.active {
+    right: 0;
+  }
+
+  .nav-links-de li {
+    padding: 15px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info span {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .main-nav {
+    top: 80px;
+  }
+}
