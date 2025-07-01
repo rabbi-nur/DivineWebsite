@@ -8,39 +8,28 @@
   <div class="hero-slider">
     <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
     <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
-    <div class="slide" style="background-image: url('./img/DSC00115.webp');">
+    <?php
+      $slides = [
+        ['image' => './img/DSC00115.webp'],
+        ['image' => './img/DJI_0178.JPG'],
+        ['image' => './img/DJI_0188.JPG'],
+      ];
+
+      foreach ($slides as $slide) {
+    ?>
+    <div class="slide" style="background-image: url('<?php echo $slide['image']; ?>');">
       <div class="hero-content">
+        <span style="color: #79B905">🪡Sustainably Crafted. Naturally Yours</span>
         <h1>TRANSFORMING HABITS<br />
       ONE SUSTAINABLE<br />
       PRODUCT AT A TIME</h1>
         <p class="subtext">Collaborating globally with sustainable products to promote
       eco-conscious choices while supporting ethical practices and
       environmental preservation.</p>
-        <a href="#" class="cta-btn"><img src="img/play.png" width="20px" alt="">Explore More</a>
+        <a href="#" class="cta-btn"><i class="fa-solid fa-play" style="color: #fff"></i>Explore More</a>
       </div>
     </div>
-    <div class="slide" style="background-image: url('./img/DJI_0178.JPG');">
-      <div class="hero-content">
-        <h1>TRANSFORMING HABITS<br />
-      ONE SUSTAINABLE<br />
-      PRODUCT AT A TIME</h1>
-        <p class="subtext">Collaborating globally with sustainable products to promote
-      eco-conscious choices while supporting ethical practices and
-      environmental preservation.</p>
-        <a href="#" class="cta-btn"><img src="img/play.png" alt="">Explore More</a>
-      </div>
-    </div>
-    <div class="slide" style="background-image: url('./img/DJI_0188.JPG');">
-      <div class="hero-content">
-        <h1>TRANSFORMING HABITS<br />
-      ONE SUSTAINABLE<br />
-      PRODUCT AT A TIME</h1>
-        <p class="subtext">Collaborating globally with sustainable products to promote
-      eco-conscious choices while supporting ethical practices and
-      environmental preservation.</p>
-        <a href="#" class="cta-btn"><img src="img/play.png" alt=""> Explore More</a>
-      </div>
-    </div>
+    <?php } ?>
   </div>
   <div class="slider-dots"></div>
 </section>

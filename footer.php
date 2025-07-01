@@ -47,9 +47,9 @@
 
   <div class="footer-bottom">
       <div class="social-icons">
-    <a href="https://www.facebook.com/divinetextile/"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://x.com/dglbd?t=b_CJ4U7SSeU7cAgo9OvOtg&s=08"><i class="fab fa-x-twitter"></i></a>
-    <a href="https://www.linkedin.com/company/divinegrouplimited"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.facebook.com/divinetextile/" style="color: #fff; margin-right:10px;"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://x.com/dglbd?t=b_CJ4U7SSeU7cAgo9OvOtg&s=08" style="color: #fff; margin-right:10px;"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://www.linkedin.com/company/divinegrouplimited" style="color: #fff"><i class="fab fa-linkedin-in"></i></a>
   </div>
     <p>© Copyrights 2025 Divine Group</p>
   </div>
