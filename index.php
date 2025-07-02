@@ -10,23 +10,27 @@
     <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
     <?php
       $slides = [
-        ['image' => './img/DSC00115.webp'],
         ['image' => './img/DJI_0178.JPG'],
-        ['image' => './img/DJI_0188.JPG'],
+        ['image' => './img/11.webp'],
+        ['image' => './img/12.webp'],
+                      ['image' => './img/DSC00115.webp'],
       ];
 
       foreach ($slides as $slide) {
     ?>
     <div class="slide" style="background-image: url('<?php echo $slide['image']; ?>');">
       <div class="hero-content">
-        <span style="color: #79B905">🪡Sustainably Crafted. Naturally Yours</span>
+        <!-- <span style="color: #79B905">🪡Sustainably Crafted. Naturally Yours</span> -->
+        <span style="color: #79B905"><i class="fas fa-signal"></i>Sustainably Crafted. Naturally Yours</span>
         <h1>TRANSFORMING HABITS<br />
-      ONE SUSTAINABLE<br />
-      PRODUCT AT A TIME</h1>
+            ONE SUSTAINABLE<br />
+            PRODUCT AT A TIME</h1>
         <p class="subtext">Collaborating globally with sustainable products to promote
       eco-conscious choices while supporting ethical practices and
       environmental preservation.</p>
-        <a href="#" class="cta-btn"><i class="fa-solid fa-play" style="color: #fff"></i>Explore More</a>
+        <a href="#" class="cta-btn"><i class="fa-sharp fa-solid fa-play" ></i>Explore More</a><br><br>
+        <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
+        <!-- <a href="#" class="cta-btn"><i class="fa-solid fa-leaf fa-lg"></i>Explore More</a><br><br> -->
       </div>
     </div>
     <?php } ?>

@@ -17,7 +17,7 @@
 </header>
 
 <nav class="main-nav">
-  <div class="logo"><img src="img/Divine Logo.png" width="60" height="30" />&nbsp;Divine Group</div>
+  <div class="logo"><img src="img/Divine Logo.png" width="60" height="30"/>&nbsp;&nbsp;Divine Group</div>
   <ul class="nav-links-de">
     <li><a href="#">Products</a></li>
     <li><a href="#">About Us</a></li>
