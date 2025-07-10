@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - echo "Starting deployment"
+    - /bin/rsync -av --exclude=".git" --exclude=".cpanel.yml" ./ /home/divinetextile/public_html/DG4/
+    - echo "Deployment complete"
