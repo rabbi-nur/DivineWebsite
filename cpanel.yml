@@ -28,6 +28,6 @@ jobs:
         run: |
           echo "Starting rsync deployment..."
           rsync -avz --progress -e "ssh -o StrictHostKeyChecking=no" \
-            --exclude=".git" --exclude=".github" --exclude="cpanel.yml" \
+            --exclude=".git" --exclude=".github" --exclude=".cpanel.yml" \
             ./ divinetextile@185.185.82.216:/home/divinetextile/public_html/DG4/
           echo "✅ Deployment completed."
