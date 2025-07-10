@@ -134,6 +134,7 @@ a {
   /* height: 90vh; */
   color: #fff;
   overflow: hidden;
+  
 }
 .hero-bg {
   position: absolute; /* to position overlay inside */
@@ -161,6 +162,7 @@ a {
   /* max-width: 800px; */
   text-align: left;
   padding: 0 150px;
+  width: 100%;
 }
 .hero-content .hero-texts {
   position: relative;
