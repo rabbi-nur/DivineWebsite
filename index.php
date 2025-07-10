@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include('head.php'); ?>
-  <body>
+<?php include('head.php'); ?>
+
+<body>
+    <!-- Loader -->
+<div id="loader-wrapper">
+  <div class="loader-logo">
+    <img src="img/Divine Logo.png" alt="Divine Logo" />
+  </div>
+</div>
+
     <?php include('header.php'); ?>
 
 <section class="hero">
@@ -13,37 +21,542 @@
         ['image' => './img/DJI_0178.JPG'],
         ['image' => './img/11.webp'],
         ['image' => './img/12.webp'],
-                      ['image' => './img/DSC00115.webp'],
+        ['image' => './img/DSC00115.webp'],
       ];
 
       foreach ($slides as $slide) {
     ?>
     <div class="slide" style="background-image: url('<?php echo $slide['image']; ?>');">
-      <div class="hero-content">
-        <!-- <span style="color: #79B905">🪡Sustainably Crafted. Naturally Yours</span> -->
-        <span style="color: #79B905"><i class="fas fa-signal"></i>Sustainably Crafted. Naturally Yours</span>
-        <h1>TRANSFORMING HABITS<br />
-            ONE SUSTAINABLE<br />
-            PRODUCT AT A TIME</h1>
-        <p class="subtext">Collaborating globally with sustainable products to promote
-      eco-conscious choices while supporting ethical practices and
-      environmental preservation.</p>
-        <a href="#" class="cta-btn"><i class="fa-sharp fa-solid fa-play" ></i>Explore More</a><br><br>
-        <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
-        <!-- <a href="#" class="cta-btn"><i class="fa-solid fa-leaf fa-lg"></i>Explore More</a><br><br> -->
-      </div>
+        <div class="hero-content">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="-5 0 45 30"
+            fill="none"
+            stroke="#75983C"
+            stroke-width="2"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
+            <g transform="scale(1.5)">
+            <polyline points="0,17 8,8 18,17 27,8"/>
+            <!-- <polyline points="0,17 8,8 18,17"/>
+            <polyline points="18,17 27,8"/> --></g>
+            </svg> -->
+            <div class="hero-texts">
+                <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;"><img src="./img/icon-text" alt="">We Chase The Future</span>
+                <h2 style="color: #fff;">REDEFINING KNITWEAR <br>EXCELLENCE WITH SUSTAINABLE <br> FABRIC INNOVATION</h2>
+                <p class="subtext">Founded in 1996, we are vertically integrated, driven by R&D excellence, <br>and focused on shaping the future of fashion</p>
+                <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
+            </div>
+            <!--new content start-->
+            <!-- <div class="">
+            <div class="row mt-5 text-center tex-white">
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h4 class="fw-bold text-white">8,000+</h4>
+                    <small class="">Clients served</small>
+                </div>
+
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h4 class="fw-bold text-white">3%</h4>
+                    <small class="">Flat platform fee</small>
+                </div>
+
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h4 class="fw-bold text-white">99.9%</h4>
+                    <small class="">Uptime guarantee</small>
+                </div>
+
+                <div class="col-md-3">
+                    <P class="fw-bold text-white">$70M</P>
+                    <P class="">Total export revenue</P>
+                </div>
+            </div>
+        
+            </div> -->
+                <div class="container">
+                    <div class="row mt-5 text-center text-white stats-row">
+                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
+                            <h4 class="fw-bold text-white">8,000+</h4>
+                            <small>Clients served</small>
+                        </div>
+
+                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
+                            <h4 class="fw-bold text-white">3%</h4>
+                            <small>Flat platform fee</small>
+                        </div>
+
+                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
+                            <h4 class="fw-bold text-white">99.9%</h4>
+                            <small>Uptime guarantee</small>
+                        </div>
+
+                        <div class="col-md-3 stat-col border-start">
+                            <h4 class="fw-bold text-white">$70M</h4>
+                            <small>Total export revenue</small>
+                        </div>
+                    </div>
+                </div>
+                <!--new content end-->
+
+        </div>  
+        
+        
     </div>
+    
     <?php } ?>
-  </div>
+    
+    </div>
+  
   <div class="slider-dots"></div>
 </section>
 
+    <!-- Category Start -->
+    <div class="container-xxl py-5 catgry-bg">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp ctgry" data-wow-delay="0.1s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid text-white" src="img/112.png" alt="Icon" width="80px">
+                            </div>
+                            <h6>Production Capacity</h6>
+                            <span style="color:#14a44d;">24 Millions PCS/Year</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/13.png" alt="Icon" width="80px">
+                            </div>
+                            <h6>Annual Revenue</h6>
+                            <span style="color:#14a44d;">$40 Million</span>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/114.png" alt="Icon" width="80px">
+                            </div>
+                            <h6>Total Export</h6>
+                            <span style="color:#14a44d;">$60 Million</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/114.png" alt="Icon" width="80px">
+                            </div>
+                            <h6>Total Export</h6>
+                            <span style="color:#14a44d;">$60 Million</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category End -->
+
+    <!-- Why us Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Why Us</h5>
+                        <h2 class="mb-0">5 Reasons We are special</h2>
+                    </div>
+                    <p class="mb-4" style="color:#000;">Ever since our inception in 1997 it has been our sole purpose to produce high quality apparels made to meet the needs of the buyer, with inch-perfect accuracy and high reliablity</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fabric Innovation & Advanced R&D</h6>
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Sustainability Commitmentf</h6>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Technology Integration</h6>
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Superior Product Quality</h6>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Global Certifications & Standards</h6>
+                        </div>
+                        
+                    </div>
+                    <a href="#" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn about-btn" data-wow-delay="0.9s">About Us</a>
+                </div>
+
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.JPG" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why us End -->
+
+    <!-- Process Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Our Process</h1>
+            </div> 
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/spinning.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Spinning</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/knitting.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Knitting</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/dyeing.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Dyeing</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/aop.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">All Over Printing</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/1.webp" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Placement Printing</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/embroidery.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Embroidery</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/yarn dyeing-min.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Yarn Dyeing</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/dyeing & finishing.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Dyeing & Finishing</h4>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+    <!-- Process End -->
+    <!--Sustainability Section Start-->
+    <div class="section-title text-center">
+        <h1 class="display-5 mb-5">Sustainability Practices</h1>
+    </div>
+<section class="sustainability-section">
+	<div class="sustainability-container">
+	  <div class="sustainability-card mt-5 mb-3">
+		<img src="img/ghm-sus.webp" alt="Economic Sustainability Icon" class="sustainability-icon">
+		<h3>GHG Emission Reduction</h3>
+		<p>Divine Group achieved a 21% reduction in GHG emissions from 15,071,600 
+            kg in 2019 to 10,377,250 kg in 2023, driven by continuous monitoring of CO₂</p>
+		<a href="#" class="read-more-btn">Read More</a>
+	  </div>
+	  <div class="sustainability-card mt-5 mb-3">
+		<img src="img/water-sus.webp" alt="Environmental Sustainability Icon" class="sustainability-icon">
+		<h3>Reduce Water Consumption</h3>
+		<p>We are dedicated to the conscientious and harmonious utilization of natural resources, as well as the safeguarding of our environment…</p>
+		<a href="#" class="read-more-btn">Read More</a>
+	  </div>
+	  <div class="sustainability-card mt-5 mb-3">
+		<img src="img/raw-sus.webp" alt="Social Sustainability Icon" class="sustainability-icon">
+		<h3>Sustainable Raw Material</h3>
+		<p>There is no beauty in our finest cloth or profit if we cannot contribute strong roles against hunger, poverty, and unhappiness of our people working…</p>
+		<a href="#" class="read-more-btn">Read More</a>
+	  </div>
+	</div>
+  </section>
+<!--Sustainabilities section end-->
+
+ <!--New another section-->
+      <section class="dg-sustainable-section">
+            <div class="dg-container">
+            <div class="dg-section-title text-center">
+                <h2 class="dg-title">Sustainability Practices</h2>
+                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+            </div>
+            <div class="dg-sustainable-cards">
+            <div class="dg-card">
+                <span class="dg-number">01</span>
+                <img src="img/1.svg" alt="Sustainable Fashion" class="dg-icon">
+                <h3>Sustainable Fashion</h3>
+                <p>What You Wear Matters—To You and the World.</p>
+                <a href="#"><i class="fa fa-leaf"></i> Read More</a>
+            </div>
+            <div class="dg-card">
+                <span class="dg-number">02</span>
+                <img src="img/3.svg" alt="GHG Emission Reduction" class="dg-icon">
+                <h3>GHG Emission Reduction</h3>
+                <p>Lower Emissions to Protect Our Shared Future.</p>
+                <a href="#"><i class="fa fa-leaf"></i> Read More</a>
+            </div>
+            <div class="dg-card">
+                <span class="dg-number">03</span>
+                <img src="img/4.svg" alt="Reduce Water Consumption" class="dg-icon">
+                <h3>Reduce Water Consumption</h3>
+                <p>Conserving Water for a Healthier, Greener Planet.</p>
+                <a href="#"><i class="fa fa-leaf"></i> Read More</a>
+            </div>
+            <div class="dg-card">
+                <span class="dg-number">04</span>
+                <img src="img/3.svg" alt="Sustainable Raw Material" class="dg-icon">
+                <h3>Sustainable Raw Material</h3>
+                <p>Responsibly Sourced Materials for Sustainable Products.</p>
+                <a href="#"><i class="fa fa-leaf"></i> Read More</a>
+            </div>
+            <div class="dg-card">
+                <span class="dg-number">05</span>
+                <img src="img/2.svg" alt="Sustainable Packaging" class="dg-icon">
+                <h3>Sustainable Packaging</h3>
+                <p>Packaging with a Conscience.</p>
+                <a href="#"><i class="fa fa-leaf"></i> Read More</a>
+            </div>
+            </div>
+        </div>
+</section>
+<!--New another section end-->
+
+    <!-- Products Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Our Products</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">General </li>
+                        <li class="mx-2" data-filter=".second">Custom </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/1 (1).png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/1 (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">100% Cotton</p>
+                            <h5 class="lh-base mb-0">Single Jersey</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/2.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Cotton/Elastane</p>
+                            <h5 class="lh-base mb-0">Single Jersey</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/3 (1).png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/3 (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">100% Cotton</p>
+                            <h5 class="lh-base mb-0">Terry</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/4.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/4.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Recycle polyester Fleece (CVC)</p>
+                            <h5 class="lh-base mb-0">Fleece, Inside Brush</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/5.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/5.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Pique polo</p>
+                            <h5 class="lh-base mb-0">pique polo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/6.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/6.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Special Knit Structure</p>
+                            <h5 class="lh-base mb-0">Waffle Jersey</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!--Buyer section Start  -->
+    <section class="container-xxl client-logos py-5 buyer container-fluid buyer-bg">
+        <div class="section-title text-center">
+            <h1 class="display-5 mb-5">Our Clients Around The World</h1>
+        </div>
+	    <div class="logo-grid">
+		    <img src="img/logo-1.png" alt="Client Logo 1" class="logo fade-in-left" width="200px">
+		    <img src="img/logo-2.png" alt="Client Logo 2" class="logo fade-in">
+		    <img src="img/logo-3.png" alt="Client Logo 3" class="logo fade-in">
+		    <img src="img/logo-4.png" alt="Client Logo 4" class="logo fade-in-right">
+		    <img src="img/logo-5.png" alt="Client Logo 5" class="logo fade-in-left">
+		    <img src="img/logo-6.png" alt="Client Logo 6" class="logo fade-in">
+		    <img src="img/logo-7.png" alt="Client Logo 7" class="logo fade-in">
+		    <img src="img/logo-8.png" alt="Client Logo 8" class="logo fade-in-right">
+	    </div>
+    </section>
+
+<!--Buyer section End  -->
+
+ <!-- Certifications Start -->
+    <section>
+        <div class="container-fluid py-5 wow fadeInUp clients scirtificate-new" data-wow-delay="0.1s" >
+            <div class="container py-3 mb-5">
+                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                    <h1 class="display-5 mb-5">Certifications</h1>
+
+                </div>
+                <div class="bg-white">
+                    <div class="owl-carousel vendor-carousel certifications">
+                        <img src="img/crt1.png" alt="">
+                        <img src="img/crt2.png" alt="">
+                        <img src="img/crt3.png" alt="">
+                        <img src="img/crt4.png" alt="">
+                        <img src="img/crt5.png" alt="">
+                        <img src="img/crt1.png" alt="">
+                        <img src="img/crt2.png" alt="">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>     
+    <!-- Certifications End -->
+
     
+
+    <!-- Footer Start -->
     <?php include('footer.php'); ?>
+    <!-- Footer End -->
 
 
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-lg-square rounded-0 back-to-top" style="background-color:#002219;"><i class="bi bi-arrow-up" style="color:#fff;"></i></a> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-  </body>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>

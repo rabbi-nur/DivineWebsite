@@ -5,9 +5,9 @@
     text-decoration: none !important;
     color: #fff;"> info@divinetextile.com </a></span>
     <span><i class="fas fa-map-marker-alt"></i> Bangladesh</span>
-    <span><i class="fab fa-whatsapp"></i><a href="tel:+8801302592851" style="
+    <span><i class="fab fa-whatsapp"></i><a href="tel:+880 1750000379" style="
     text-decoration: none !important;
-    color: #fff;"> +880 1302-592851 </a></span>
+    color: #fff;"> +880 1750-000379 </a></span>
   </div>
   <div class="social-icons" >
     <a href="https://www.facebook.com/divinetextile/" style="color: #fff; margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
@@ -17,14 +17,17 @@
 </header>
 
 <nav class="main-nav">
-  <div class="logo"><img src="img/Divine Logo.png" width="60" height="30"/>&nbsp;&nbsp;Divine Group</div>
+  <div class="header-logo"><img src="img/Divine Logo - 2.png" width="60" height="36"/>&nbsp;&nbsp;Divine Group</div>
+  <div>
   <ul class="nav-links-de">
-    <li><a href="#">Products</a></li>
     <li><a href="#">About Us</a></li>
-    <li><a href="#">Our Story</a></li>
-    <li><a href="#">Explore</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Our Process</a></li>
+    <li><a href="#">Sustainability</a></li>
+    <li><a href="#">Contact</a></li>
     <li><a href="#">Profile</a></li>
   </ul>
+  </div>
   <div class="hamburger">
     <span class="bar"></span>
     <span class="bar"></span>

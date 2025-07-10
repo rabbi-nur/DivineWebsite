@@ -1,0 +1,33 @@
+name: Deploy to cPanel via SSH & rsync
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: 🚀 Deploy to cPanel
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout Code
+        uses: actions/checkout@v3
+
+      - name: 🔐 Load SSH key
+        uses: webfactory/ssh-agent@v0.8.1
+        with:
+          ssh-private-key: ${{ secrets.CPANEL_SSH_KEY }}
+
+      - name: 🛰️ Test SSH Connection
+        run: |
+          echo "Testing SSH connection..."
+          ssh -o StrictHostKeyChecking=no username@your-server-ip "echo SSH connection successful!"
+
+      - name: 📤 Deploy with rsync
+        run: |
+          echo "Starting rsync deployment..."
+          rsync -avz --progress -e "ssh -o StrictHostKeyChecking=no" \
+            --exclude=".git" --exclude=".github" --exclude=".cpanel.yml" \
+            ./ divinetextile@185.185.82.216:/home/divinetextile/public_html/DG4/
+          echo "✅ Deployment completed."

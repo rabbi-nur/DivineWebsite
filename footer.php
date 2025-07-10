@@ -1,4 +1,4 @@
-
+<section>
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-column">
@@ -35,9 +35,9 @@
     <div class="footer-column">
       <h3>Contact</h3>
       <ul>
-        <li>📱 <a href="tel:+8801302592851" style="
+        <li>📱 <a href="tel:+8801750000379" style="
     text-decoration: none !important;
-    color: #fff;">+880 1302–592851</a></li></li>
+    color: #fff;">+880 1750-000379</a></li></li>
         <li>📧 <a href="mailto:info@divinetextile.com" style="
     text-decoration: none !important;
     color: #fff;">info@divinetextile.com</a></li></li>
@@ -56,3 +56,4 @@
 
   <a href="https://wa.me/8801302592851" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
 </footer>
+</section>
