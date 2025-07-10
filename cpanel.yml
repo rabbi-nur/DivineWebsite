@@ -1,5 +1,25 @@
-deployment:
-  tasks:
-    - echo "Starting deployment"
-    - /bin/rsync -av --exclude=".git" --exclude=".cpanel.yml" ./ /home/divinetextile/public_html/DG4/
-    - echo "Deployment complete"
+name: Deploy to cPanel via SSH
+
+on:
+  push:
+    branches:
+      - master  # or your deploy branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup SSH key
+        uses: webfactory/ssh-agent@v0.8.1
+        with:
+          ssh-private-key: ${{ secrets.CPANEL_SSH_KEY }}
+
+      - name: Deploy with rsync
+        run: |
+          echo "Starting deployment"
+          rsync -av --exclude=".git" --exclude=".cpanel.yml" ./ divinetextile@185.185.82.216:/home/divinetextile/public_html/DG4/
+          echo "Deployment complete"
