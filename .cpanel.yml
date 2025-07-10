@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: 🚀 Deploy to cPanel
-    runs-on: ubuntu-latest
+    runs-on: Apache
 
     steps:
       - name: 📦 Checkout Code
