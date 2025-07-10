@@ -14,12 +14,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup SSH key
-        uses: webfactory/ssh-agent@v0.8.1
+        uses: webfactory/ssh-agent@v0.5.4
         with:
           ssh-private-key: ${{ secrets.CPANEL_SSH_KEY }}
 
       - name: Deploy with rsync
         run: |
           echo "Starting deployment"
-          rsync -av --exclude=".git" --exclude="cpanel.yml" ./ divinetextile@185.185.82.216:/home/divinetextile/public_html/DG4/
+          rsync -av --exclude=".git" --exclude="cpanel.yml" -e "ssh -p 1025" ./ divinetextile@185.185.82.216:/home/divinetextile/public_html/DG4/
           echo "Deployment complete"
