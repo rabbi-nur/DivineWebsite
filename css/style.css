@@ -163,12 +163,16 @@ a {
   text-align: left;
   padding: 0 150px;
   width: 100%;
+
 }
 .hero-content .hero-texts {
   position: relative;
   z-index: 2;
   max-width: 1400px;
  
+}
+.container-counter{
+  width: 1200px;
 }
 
 .hero-content h1 {
@@ -1521,16 +1525,11 @@ a {
 }
 
 
-/*======new css for sus==========*/
-/* .count-texts{
-  font-size: 24px;
-  color: #fff Im !important;
-  font-weight: bold;
-  margin-top: 20px;
-} */
+/*======css for slider couter section ==========*/
+
 .stat-col {
-    padding: 20px 20px;
-    border-color: rgba(190, 32, 32, 0.2); /* light white border */
+    padding: 10px 10px;
+    border-color: #626262  !important; /* light white border */
 }
 
 /* Optional: Remove border on the first column */
@@ -1538,7 +1537,7 @@ a {
     border-left: none;
 }
 
-/* New sustainability css */
+/* New sustainability css start */
 .dg-sustainable-section {
   padding: 60px 20px;
   background: #fff;
@@ -1677,3 +1676,5 @@ a {
   margin: 0 auto;
   padding-bottom: 50px;
 }
+
+/* New sustainability css End*/

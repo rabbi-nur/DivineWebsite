@@ -5,9 +5,9 @@
 <body>
     <!-- Loader -->
 <div id="loader-wrapper">
-  <div class="loader-logo">
-    <img src="img/Divine Logo.png" alt="Divine Logo" />
-  </div>
+    <div class="loader-logo">
+         <img src="img/Divine Logo.png" alt="Divine Logo" />
+    </div>
 </div>
 
     <?php include('header.php'); ?>
@@ -28,7 +28,7 @@
     ?>
     <div class="slide" style="background-image: url('<?php echo $slide['image']; ?>');">
         <div class="hero-content">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg"
+            <svg xmlns="http://www.w3.org/2000/svg"
             viewBox="-5 0 45 30"
             fill="none"
             stroke="#75983C"
@@ -40,7 +40,7 @@
             <polyline points="0,17 8,8 18,17 27,8"/>
             <!-- <polyline points="0,17 8,8 18,17"/>
             <polyline points="18,17 27,8"/> --></g>
-            </svg> -->
+            </svg>
             <div class="hero-texts">
                 <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;"><img src="./img/icon-text" alt="">We Chase The Future</span>
                 <h2 style="color: #fff;">REDEFINING KNITWEAR <br>EXCELLENCE WITH SUSTAINABLE <br> FABRIC INNOVATION</h2>
@@ -48,31 +48,8 @@
                 <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
             </div>
             <!--new content start-->
-            <!-- <div class="">
-            <div class="row mt-5 text-center tex-white">
-                <div class="col-md-3 mb-4 mb-md-0">
-                    <h4 class="fw-bold text-white">8,000+</h4>
-                    <small class="">Clients served</small>
-                </div>
-
-                <div class="col-md-3 mb-4 mb-md-0">
-                    <h4 class="fw-bold text-white">3%</h4>
-                    <small class="">Flat platform fee</small>
-                </div>
-
-                <div class="col-md-3 mb-4 mb-md-0">
-                    <h4 class="fw-bold text-white">99.9%</h4>
-                    <small class="">Uptime guarantee</small>
-                </div>
-
-                <div class="col-md-3">
-                    <P class="fw-bold text-white">$70M</P>
-                    <P class="">Total export revenue</P>
-                </div>
-            </div>
-        
-            </div> -->
-                <div class="container">
+            
+                <div class="container-counter">
                     <div class="row mt-5 text-center text-white stats-row">
                         <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
                             <h4 class="fw-bold text-white">8,000+</h4>
@@ -104,9 +81,9 @@
     
     <?php } ?>
     
-    </div>
+
   
-  <div class="slider-dots"></div>
+<div class="slider-dots"></div>
 </section>
 
     <!-- Category Start -->
