@@ -87,7 +87,7 @@
 </section>
 
     <!-- Category Start -->
-    <div class="container-xxl py-5 catgry-bg">
+    <!-- <div class="container-xxl py-5 catgry-bg">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp ctgry" data-wow-delay="0.1s">
@@ -137,16 +137,29 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Category End -->
 
     <!-- Why us Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid bg-light overflow-hidden px-lg-0">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Why Us</h5>
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="-5 0 45 30"
+                                fill="none"
+                                stroke="#75983C"
+                                stroke-width="2"
+                                stroke-linecap="square"
+                                stroke-miterlimit="10"
+                                style="height: 20px; width: auto; vertical-align: middle; margin-right: 6px;">
+                                <g transform="scale(1.5)"><polyline points="0,17 8,8 18,17 27,8"/></g>
+                            </svg>
+                            <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;">About Divine Group</span>
+
+                        <!-- <h5 class="fw-bold text-primary text-uppercase">About Divine Group</h5> -->
                         <h2 class="mb-0">5 Reasons We are special</h2>
                     </div>
                     <p class="mb-4" style="color:#000;">Ever since our inception in 1997 it has been our sole purpose to produce high quality apparels made to meet the needs of the buyer, with inch-perfect accuracy and high reliablity</p>
@@ -164,7 +177,8 @@
                         </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn about-btn" data-wow-delay="0.9s">About Us</a>
+                    <!-- <a href="#" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn about-btn" data-wow-delay="0.9s">About Us</a> -->
+                    <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>About Us</a><br><br>
                 </div>
 
                 <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
@@ -180,9 +194,13 @@
     <!-- Process Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="section-title text-center">
+            <!-- <div class="section-title text-center">
                 <h1 class="display-5 mb-5">Our Process</h1>
-            </div> 
+            </div>  -->
+            <div class="dg-section-title text-center">
+                <h2 class="dg-title">Our Process</h2>
+                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+            </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
@@ -277,10 +295,10 @@
    </div>
     <!-- Process End -->
     <!--Sustainability Section Start-->
-    <div class="section-title text-center">
+    <!-- <div class="section-title text-center">
         <h1 class="display-5 mb-5">Sustainability Practices</h1>
-    </div>
-<section class="sustainability-section">
+    </div> -->
+<!-- <section class="sustainability-section">
 	<div class="sustainability-container">
 	  <div class="sustainability-card mt-5 mb-3">
 		<img src="img/ghm-sus.webp" alt="Economic Sustainability Icon" class="sustainability-icon">
@@ -302,7 +320,7 @@
 		<a href="#" class="read-more-btn">Read More</a>
 	  </div>
 	</div>
-  </section>
+  </section> -->
 <!--Sustainabilities section end-->
 
  <!--New another section-->
@@ -356,8 +374,12 @@
     <!-- Products Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="section-title text-center">
+            <!-- <div class="section-title text-center">
                 <h1 class="display-5 mb-5">Our Products</h1>
+            </div> -->
+            <div class="dg-section-title text-center">
+                <h2 class="dg-title">Our Products</h2>
+                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
@@ -467,9 +489,13 @@
 
     <!--Buyer section Start  -->
     <section class="container-xxl client-logos py-5 buyer container-fluid buyer-bg">
-        <div class="section-title text-center">
+        <!-- <div class="section-title text-center">
             <h1 class="display-5 mb-5">Our Clients Around The World</h1>
-        </div>
+        </div> -->
+            <div class="dg-section-title text-center">
+                <h2 class="dg-title">Our Clients</h2>
+                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+            </div>
 	    <div class="logo-grid">
 		    <img src="img/logo-1.png" alt="Client Logo 1" class="logo fade-in-left" width="200px">
 		    <img src="img/logo-2.png" alt="Client Logo 2" class="logo fade-in">
@@ -488,10 +514,14 @@
     <section>
         <div class="container-fluid py-5 wow fadeInUp clients scirtificate-new" data-wow-delay="0.1s" >
             <div class="container py-3 mb-5">
-                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <!-- <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                     <h1 class="display-5 mb-5">Certifications</h1>
 
-                </div>
+                </div> -->
+                <div class="dg-section-title text-center">
+                <h2 class="dg-title">Certifications</h2>
+                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+            </div>
                 <div class="bg-white">
                     <div class="owl-carousel vendor-carousel certifications">
                         <img src="img/crt1.png" alt="">

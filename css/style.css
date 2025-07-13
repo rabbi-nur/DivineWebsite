@@ -1537,6 +1537,9 @@ a {
     border-left: none;
 }
 
+.counter-text{
+  text-align: left;
+}
 /* New sustainability css start */
 .dg-sustainable-section {
   padding: 60px 20px;
