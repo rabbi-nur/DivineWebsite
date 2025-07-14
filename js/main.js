@@ -197,3 +197,28 @@ document.addEventListener('DOMContentLoaded', function () {
     
 })(jQuery);
 
+// JavaScript for new product section
+
+
+document.querySelectorAll('.product-card').forEach(card => {
+      const primaryImg = card.querySelector('img.primary');
+      const secondaryImg = card.querySelector('img.secondary');
+
+      card.querySelectorAll('.thumb').forEach(thumb => {
+        thumb.addEventListener('mouseenter', () => {
+          const img1 = thumb.getAttribute('data-img1');
+          const img2 = thumb.getAttribute('data-img2');
+          primaryImg.src = img1;
+          secondaryImg.src = img2;
+        });
+      });
+
+      // Optional: auto-scroll thumbnails
+      const slider = card.querySelector('.swatch-slider');
+      let scrollAmount = 0;
+      setInterval(() => {
+        scrollAmount += 1;
+        if (scrollAmount > slider.scrollWidth - slider.clientWidth) scrollAmount = 0;
+        slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+      }, 60); // adjust speed
+    });

@@ -39,6 +39,9 @@
     <link href="css/style.css" rel="stylesheet">
     <!--new css-->
     <!-- <link rel="stylesheet" href="assest/css/bootstrap.min.css"> -->
+
+    <!-- New products -->
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
    
 
 

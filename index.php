@@ -372,11 +372,8 @@
 <!--New another section end-->
 
     <!-- Products Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
-            <!-- <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Products</h1>
-            </div> -->
             <div class="dg-section-title text-center">
                 <h2 class="dg-title">Our Products</h2>
                 <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
@@ -483,8 +480,117 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Products End -->
+
+    <!--New Products section Start -->
+<section>
+    <div class="dg-section-title text-center py-5">
+        <h2 class="dg-title">Our Products</h2>
+        <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card" data-id="1">
+            <div class="product-img-container col-md-4">
+                <img src="img/lrg1.jpg" class="primary" alt="Main">
+                <img src="img/lrg2.jpg" class="secondary" alt="">
+                <img src="img/lrg3.jpg" class="secondary" alt="">
+            </div>
+            <div class="product-info">
+                <div class="product-price">$80</div>
+                <div class="product-title">Wales Bonner 3-Stripes Socks</div>
+                <div class="product-meta">2 pack • Originals</div>
+
+                <div class="swatch-slider">
+                <div class="thumb" 
+                    data-img1="img/thm1.jpg" 
+                    data-img2="img/thm2.jpg">
+                    <img src="img/thm3.jpg">
+                </div>
+
+                <div class="thumb" 
+                    data-img1="img/thm4.jpg" 
+                    data-img2="img/thm5.jpg">
+                    <img src="img/thm1.jpg">
+                </div>
+                <div class="thumb" 
+                    data-img1="img/thm1.jpg" 
+                    data-img2="img/thm2.jpg">
+                    <img src="img/thm3.jpg">
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="product-card" data-id="1">
+            <div class="product-img-container col-md-4">
+                <img src="img/lrg1.jpg" class="primary" alt="Main">
+                <img src="img/lrg2.jpg" class="secondary" alt="">
+                <img src="img/lrg3.jpg" class="secondary" alt="">
+            </div>
+            <div class="product-info">
+                <div class="product-price">$80</div>
+                <div class="product-title">Wales Bonner 3-Stripes Socks</div>
+                <div class="product-meta">2 pack • Originals</div>
+
+                <div class="swatch-slider">
+                <div class="thumb" 
+                    data-img1="img/thm1.jpg" 
+                    data-img2="img/thm2.jpg">
+                    <img src="img/thm3.jpg">
+                </div>
+
+                <div class="thumb" 
+                    data-img1="img/thm4.jpg" 
+                    data-img2="img/thm5.jpg">
+                    <img src="img/thm1.jpg">
+                </div>
+                <div class="thumb" 
+                    data-img1="img/thm1.jpg" 
+                    data-img2="img/thm2.jpg">
+                    <img src="img/thm3.jpg">
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="product-card" data-id="1">
+                <div class="product-img-container col-md-4">
+                    <img src="img/lrg1.jpg" class="primary" alt="Main">
+                    <img src="img/lrg2.jpg" class="secondary" alt="">
+                    <img src="img/lrg3.jpg" class="secondary" alt="">
+                </div>
+            <div class="product-info">
+                <div class="product-price">$80</div>
+                <div class="product-title">Wales Bonner 3-Stripes Socks</div>
+                <div class="product-meta">2 pack • Originals</div>
+
+                <div class="swatch-slider">
+                    <div class="thumb" 
+                        data-img1="img/thm1.jpg" 
+                        data-img2="img/thm2.jpg">
+                        <img src="img/thm3.jpg">
+                    </div>
+
+                    <div class="thumb" 
+                        data-img1="img/thm4.jpg" 
+                        data-img2="img/thm5.jpg">
+                        <img src="img/thm1.jpg">
+                    </div>
+                    <div class="thumb" 
+                        data-img1="img/thm1.jpg" 
+                        data-img2="img/thm2.jpg">
+                        <img src="img/thm3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--New Products End -->
+
+
 
 
     <!--Buyer section Start  -->
