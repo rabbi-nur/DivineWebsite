@@ -197,28 +197,49 @@ document.addEventListener('DOMContentLoaded', function () {
     
 })(jQuery);
 
+
 // JavaScript for new product section
 
 
 document.querySelectorAll('.product-card').forEach(card => {
-      const primaryImg = card.querySelector('img.primary');
-      const secondaryImg = card.querySelector('img.secondary');
+  const primaryImg = card.querySelector('img.primary');
+  const secondaryImg = card.querySelector('img.secondary');
 
-      card.querySelectorAll('.thumb').forEach(thumb => {
-        thumb.addEventListener('mouseenter', () => {
-          const img1 = thumb.getAttribute('data-img1');
-          const img2 = thumb.getAttribute('data-img2');
-          primaryImg.src = img1;
-          secondaryImg.src = img2;
-        });
-      });
+  card.querySelectorAll('.thumb').forEach(thumb => {
+    thumb.addEventListener('mouseenter', () => {
+      const img1 = thumb.getAttribute('data-img1');
+      const img2 = thumb.getAttribute('data-img2');
 
-      // Optional: auto-scroll thumbnails
-      const slider = card.querySelector('.swatch-slider');
-      let scrollAmount = 0;
-      setInterval(() => {
-        scrollAmount += 1;
-        if (scrollAmount > slider.scrollWidth - slider.clientWidth) scrollAmount = 0;
-        slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
-      }, 60); // adjust speed
+      // ✅ Update main image
+      primaryImg.src = img1;
+      secondaryImg.src = img2;
     });
+
+    // Optional: Make it persistent on click
+    thumb.addEventListener('click', () => {
+      const img1 = thumb.getAttribute('data-img1');
+      const img2 = thumb.getAttribute('data-img2');
+
+      primaryImg.src = img1;
+      secondaryImg.src = img2;
+    });
+  });
+
+  // Auto-scroll for swatches (optional)
+  const slider = card.querySelector('.swatch-slider');
+  let scrollAmount = 0;
+  setInterval(() => {
+    scrollAmount += 1;
+    if (scrollAmount > slider.scrollWidth - slider.clientWidth) scrollAmount = 0;
+    slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+  }, 60);
+});
+    
+    //for accordion section
+  const panels = document.querySelectorAll('.acc-panel');
+  panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+      panels.forEach(p => p.classList.remove('active'));
+      panel.classList.add('active');
+    });
+  });
