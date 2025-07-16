@@ -27,24 +27,9 @@ $products = [
         "thumb" => "img/products/card1/item_vintage_thumb.webp",
         "title" => "Wales Bonner Vintage Socks",
         "meta" => "Retro Style • Limited"
-      ],
-      [
-        "img1" => "img/products/card1/item_pink_normal.webp",
-        "img2" => "img/products/card1/item_pink_hover.webp",
-        "thumb" => "img/products/card1/item_pink_thumb.webp",
-        "title" => "Wales Bonner Pink Socks",
-        "meta" => "Pink Edition • Originals"
-      ],
-      [
-        "img1" => "img/products/card1/item_film_normal.webp",
-        "img2" => "img/products/card1/item_film_hover.webp",
-        "thumb" => "img/products/card1/item_film_thumb.webp",
-        "title" => "Wales Bonner Film Socks",
-        "meta" => "Film Style • Limited Edition • Originals"
       ]
     ]
-  ],
-  [
+      ],[
     "title" => "Wales Bonner 3-Stripes Socks",
     "price" => "$80",
     "meta"  => "2 pack • Originals",
@@ -71,23 +56,9 @@ $products = [
         "thumb" => "img/products/card1/item_vintage_thumb.webp",
         "title" => "Wales Bonner Vintage Socks",
         "meta" => "Retro Style • Limited"
-      ],
-      [
-        "img1" => "img/products/card1/item_pink_normal.webp",
-        "img2" => "img/products/card1/item_pink_hover.webp",
-        "thumb" => "img/products/card1/item_pink_thumb.webp",
-        "title" => "Wales Bonner Pink Socks",
-        "meta" => "Pink Edition • Originals"
-      ],
-      [
-        "img1" => "img/products/card1/item_film_normal.webp",
-        "img2" => "img/products/card1/item_film_hover.webp",
-        "thumb" => "img/products/card1/item_film_thumb.webp",
-        "title" => "Wales Bonner Film Socks",
-        "meta" => "Film Style • Limited Edition • Originals"
       ]
     ]
-  ],[
+      ],[
     "title" => "Wales Bonner 3-Stripes Socks",
     "price" => "$80",
     "meta"  => "2 pack • Originals",
@@ -114,20 +85,6 @@ $products = [
         "thumb" => "img/products/card1/item_vintage_thumb.webp",
         "title" => "Wales Bonner Vintage Socks",
         "meta" => "Retro Style • Limited"
-      ],
-      [
-        "img1" => "img/products/card1/item_pink_normal.webp",
-        "img2" => "img/products/card1/item_pink_hover.webp",
-        "thumb" => "img/products/card1/item_pink_thumb.webp",
-        "title" => "Wales Bonner Pink Socks",
-        "meta" => "Pink Edition • Originals"
-      ],
-      [
-        "img1" => "img/products/card1/item_film_normal.webp",
-        "img2" => "img/products/card1/item_film_hover.webp",
-        "thumb" => "img/products/card1/item_film_thumb.webp",
-        "title" => "Wales Bonner Film Socks",
-        "meta" => "Film Style • Limited Edition • Originals"
       ]
     ]
   ]
@@ -162,24 +119,17 @@ $products = [
     width: 100%;
     aspect-ratio: 1/1;
     overflow: hidden;
-    cursor: zoom-in;
   }
   .product-img-container img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity 0.4s ease, transform 0.3s ease;
+    transition: opacity 0.4s ease;
   }
   .product-img-container img.secondary { opacity: 0; }
   .product-card:hover .product-img-container img.primary { opacity: 0; }
   .product-card:hover .product-img-container img.secondary { opacity: 1; }
-
-  /* Zoom on click */
-  .zoomed {
-    transform: scale(1.5);
-    cursor: zoom-out;
-  }
 
   .product-info { padding: 16px; }
   .product-price { font-weight: bold; margin-bottom: 4px; font-size: 18px; }
@@ -193,8 +143,9 @@ $products = [
   }
   .swatch-slider {
     display: flex;
-    overflow: hidden;
     gap: 8px;
+    scroll-behavior: smooth;
+    overflow: hidden;
   }
   .thumb {
     flex: 0 0 auto;
@@ -226,6 +177,7 @@ $products = [
     cursor: pointer;
     user-select: none;
     font-size: 14px;
+    z-index: 2;
   }
   .arrow.left { left: 0; }
   .arrow.right { right: 0; }
@@ -276,62 +228,46 @@ document.querySelectorAll('.product-card').forEach(card => {
   const leftArrow = card.querySelector('.arrow.left');
   const rightArrow = card.querySelector('.arrow.right');
 
-  let scrollPos = 0;
-  let isUserScrolling = false;
-  let autoScroll;
+  let currentIndex = 0;
 
-  function startAutoScroll() {
-    autoScroll = setInterval(() => {
-      if (!isUserScrolling) {
-        scrollPos += 1;
-        if (scrollPos >= slider.scrollWidth - slider.clientWidth) scrollPos = 0;
-        slider.scrollLeft = scrollPos;
-      }
-    }, 40);
+  function updateVariant(index) {
+    thumbs.forEach(t => t.classList.remove('active'));
+    thumbs[index].classList.add('active');
+    primaryImg.src = thumbs[index].dataset.img1;
+    secondaryImg.src = thumbs[index].dataset.img2;
+
+    titleEl.style.opacity = 0;
+    metaEl.style.opacity = 0;
+    setTimeout(() => {
+      titleEl.textContent = thumbs[index].dataset.title;
+      metaEl.textContent = thumbs[index].dataset.meta;
+      titleEl.style.opacity = 1;
+      metaEl.style.opacity = 1;
+    }, 300);
   }
 
-  function stopAutoScroll() { clearInterval(autoScroll); }
-
-  slider.addEventListener('touchstart', () => { isUserScrolling = true; stopAutoScroll(); });
-  slider.addEventListener('touchend', () => { isUserScrolling = false; startAutoScroll(); });
-
   leftArrow.addEventListener('click', () => {
-    slider.scrollBy({ left: -60, behavior: 'smooth' });
+    currentIndex = (currentIndex - 1 + thumbs.length) % thumbs.length;
+    updateVariant(currentIndex);
+    slider.scrollTo({ left: thumbs[currentIndex].offsetLeft - 20, behavior: 'smooth' });
   });
 
   rightArrow.addEventListener('click', () => {
-    slider.scrollBy({ left: 60, behavior: 'smooth' });
+    currentIndex = (currentIndex + 1) % thumbs.length;
+    updateVariant(currentIndex);
+    slider.scrollTo({ left: thumbs[currentIndex].offsetLeft - 20, behavior: 'smooth' });
   });
 
-  thumbs.forEach(thumb => {
+  thumbs.forEach((thumb, i) => {
     thumb.addEventListener('mouseenter', () => {
       primaryImg.src = thumb.dataset.img1;
       secondaryImg.src = thumb.dataset.img2;
     });
     thumb.addEventListener('click', () => {
-      thumbs.forEach(t => t.classList.remove('active'));
-      thumb.classList.add('active');
-      primaryImg.src = thumb.dataset.img1;
-      secondaryImg.src = thumb.dataset.img2;
-
-      // Fade animation for title/meta
-      titleEl.style.opacity = 0;
-      metaEl.style.opacity = 0;
-      setTimeout(() => {
-        titleEl.textContent = thumb.dataset.title;
-        metaEl.textContent = thumb.dataset.meta;
-        titleEl.style.opacity = 1;
-        metaEl.style.opacity = 1;
-      }, 300);
+      currentIndex = i;
+      updateVariant(currentIndex);
     });
   });
-
-  primaryImg.addEventListener('click', () => {
-    primaryImg.classList.toggle('zoomed');
-    secondaryImg.classList.toggle('zoomed');
-  });
-
-  startAutoScroll();
 });
 </script>
 
