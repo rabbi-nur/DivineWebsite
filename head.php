@@ -44,5 +44,14 @@
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
    
 
+     <link rel="preload" href="img/spinning.webp" as="image">
+     <link rel="preload" href="img/knitting.webp" as="image">
+     <link rel="preload" href="img/dyeing.webp" as="image">
+     <link rel="preload" href="img/aop.webp" as="image">
+     <link rel="preload" href="img/1.webp" as="image">
+     <link rel="preload" href="img/embroidery.webp" as="image">
+     <link rel="preload" href="img/yarn dyeing-min.webp" as="image">
+     <link rel="preload" href="img/dyeing & finishing.webp" as="image">
+
 
 </head>

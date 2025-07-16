@@ -1,101 +1,161 @@
-<?php
-$accProcesses = [
-    [
-        "name" => "Spinning",
-        "class" => "acc-spinning",
-        "img" => "img/spinning.JPG",
-        "anim" => "https://assets7.lottiefiles.com/packages/lf20_q5pk6p1k.json",
-        "text" => "Transforming cotton into yarn with precision."
-    ],
-    [
-        "name" => "Knitting",
-        "class" => "acc-knitting",
-        "img" => "img/knitting.JPG",
-        "anim" => "https://assets7.lottiefiles.com/packages/lf20_5qpi0r8z.json",
-        "text" => "Knitting premium fabrics with speed and accuracy."
-    ],
-    [
-        "name" => "Dyeing",
-        "class" => "acc-dyeing",
-        "img" => "img/dyeing.JPG",
-        "anim" => "https://assets7.lottiefiles.com/packages/lf20_qdbw5qfs.json",
-        "text" => "Eco-friendly dyeing for vibrant, lasting colors."
-    ],
-    [
-        "name" => "All Over Printing",
-        "class" => "acc-aop",
-        "img" => "img/aop.JPG",
-        "anim" => "https://assets1.lottiefiles.com/packages/lf20_oGlWy5.json",
-        "text" => "Precision printing for premium designs."
-    ],
-    [
-        "name" => "Placement Printing",
-        "class" => "acc-placement",
-        "img" => "img/1.webp",
-        "anim" => "https://assets8.lottiefiles.com/packages/lf20_qatvfp0f.json",
-        "text" => "Detailed placement printing solutions."
-    ],
-    [
-        "name" => "Embroidery",
-        "class" => "acc-embroidery",
-        "img" => "img/embroidery.JPG",
-        "anim" => "https://assets5.lottiefiles.com/packages/lf20_qp1q7mjk.json",
-        "text" => "Elegant embroidery craftsmanship."
-    ],
-    [
-        "name" => "Yarn Dyeing",
-        "class" => "acc-yarn",
-        "img" => "img/yarn dyeing-min.JPG",
-        "anim" => "https://assets7.lottiefiles.com/packages/lf20_6kbrv8hq.json",
-        "text" => "Colorful yarn for unique designs."
-    ],
-    [
-        "name" => "Dyeing & Finishing",
-        "class" => "acc-finishing",
-        "img" => "img/dyeing & finishing.JPG",
-        "anim" => "https://assets2.lottiefiles.com/packages/lf20_x62chJ.json",
-        "text" => "Finishing touches for premium quality."
-    ]
-];
-?>
 <div class="acc-container">
-<?php foreach($accProcesses as $index => $p): ?>
-    <div class="acc-panel <?= $p['class'] ?> <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+    <!-- Spinning -->
+    <div class="acc-panel acc-spinning acc-active" style="background-image:url('img/spinning.webp')">
         <div class="acc-overlay-inactive"></div>
-        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-heading-vertical">SPINNING</div>
         <div class="acc-content">
             <div class="acc-left">
-                <div class="acc-animation-box">
-                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
-                </div>
                 <div class="acc-text-box">
-                    <h2><?= $p['name'] ?></h2>
-                    <p><?= $p['text'] ?></p>
+                    <h2>Spinning</h2>
+                    <p>Transforming cotton into yarn with precision.</p>
                     <a href="#" class="acc-btn">Read More</a>
                 </div>
             </div>
             <div class="acc-right">
                 <div class="acc-image-box">
-                    <img src="<?= $p['img'] ?>" alt="">
+                    <img src="img/spinning.webp" alt="Spinning">
                 </div>
             </div>
         </div>
     </div>
-<?php endforeach; ?>
+
+    <!-- Knitting -->
+    <div class="acc-panel acc-knitting" style="background-image:url('img/knitting.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">KNITTING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Knitting</h2>
+                    <p>Knitting premium fabrics with speed and accuracy.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/knitting.webp" alt="Knitting">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dyeing -->
+    <div class="acc-panel acc-dyeing" style="background-image:url('img/dyeing.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">DYEING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Dyeing</h2>
+                    <p>Eco-friendly dyeing for vibrant, lasting colors.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/dyeing.webp" alt="Dyeing">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All Over Printing -->
+    <div class="acc-panel acc-aop" style="background-image:url('img/aop.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">ALL OVER PRINTING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>All Over Printing</h2>
+                    <p>Precision printing for premium designs.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/aop.webp" alt="All Over Printing">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Placement Printing -->
+    <div class="acc-panel acc-placement" style="background-image:url('img/1.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">PLACEMENT PRINTING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Placement Printing</h2>
+                    <p>Detailed placement printing solutions.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/1.webp" alt="Placement Printing">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Embroidery -->
+    <div class="acc-panel acc-embroidery" style="background-image:url('img/embroidery.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">EMBROIDERY</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Embroidery</h2>
+                    <p>Elegant embroidery craftsmanship.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/embroidery.webp" alt="Embroidery">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yarn Dyeing -->
+    <div class="acc-panel acc-yarn" style="background-image:url('img/yarn dyeing-min.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">YARN DYEING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Yarn Dyeing</h2>
+                    <p>Colorful yarn for unique designs.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/yarn dyeing-min.webp" alt="Yarn Dyeing">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dyeing & Finishing -->
+    <div class="acc-panel acc-finishing" style="background-image:url('img/dyeing & finishing.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">DYEING & FINISHING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Dyeing & Finishing</h2>
+                    <p>Finishing touches for premium quality.</p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="img/dyeing & finishing.webp" alt="Dyeing & Finishing">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-<script>
-
-
-// Lottie animations
-const accAnimations = <?= json_encode(array_column($accProcesses, 'anim')); ?>;
-accAnimations.forEach((animPath, index) => {
-    lottie.loadAnimation({
-        container: document.getElementById(`acc-lottie${index}`),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: animPath
-    });
-});
-</script>

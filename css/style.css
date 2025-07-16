@@ -1799,28 +1799,26 @@ a {
     }
 
     /*========CSS  for accordion ===============*/
-  .acc-container {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-  }
+.acc-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
 
-  .acc-panel {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    transition: flex 0.5s ease;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.acc-panel {
+  flex: 1;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
-  .acc-panel {
-    flex: 1;
-    position: relative;
-  }
+  /* Performance hints */
+  transition: flex-basis 0.5s ease; /* Animate flex-basis for smoother GSAP */
+  will-change: flex-basis, opacity;
+}
 
   /* Hover glow effect */
   .acc-panel:not(.acc-active):hover::after {
