@@ -1783,11 +1783,11 @@ a {
     }
 
     /*========CSS  for accordion ===============*/
-  .acc-container {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-  }
+.acc-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
 
   .acc-panel {
     position: relative;
