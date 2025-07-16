@@ -213,7 +213,7 @@
     <section class="dg-sustainable-section">
           <div class="dg-container">
             <div class="dg-section-title text-center">
-                <h2 class="dg-title">Sustainability Practices</h2>
+                <h2 class="dg-title">Our Process</h2>
                 <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
             </div>
         </div>
