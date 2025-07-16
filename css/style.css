@@ -1783,96 +1783,164 @@ a {
     }
 
     /*========CSS  for accordion ===============*/
-   
   .acc-container {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  overflow-x: auto;
-  overflow-y: hidden;
-  width: 100vw;
-  scroll-snap-type: x mandatory;
-  background: #0a0a0a;
-}
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
 
-.acc-panel {
-  flex: 0 0 5%; /* Shrunk inactive width */
-  transition: all 0.5s ease;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
-  scroll-snap-align: start;
-}
+  .acc-panel {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.acc-panel.active {
-  flex: 0 0 65% /* Expanded panel */
-}
-    .acc-overlay {
-      background: rgba(0,0,0,0.6);
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 30px;
-      opacity: 0;
-      transition: opacity 0.4s ease;
-    }
-    .acc-panel.active .acc-overlay {
-      opacity: 1;
-    }
-    .acc-overlay h2 {
-      font-size: 1.8rem;
-      color: #6cbf00;
-      margin-bottom: 10px;
-    }
-    .acc-overlay p {
-      font-size: 0.95rem;
-      max-width: 400px;
-      line-height: 1.5;
-    }
-    .btn {
-      margin-top: 12px;
-      padding: 8px 14px;
-      background: #6cbf00;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .svg-container {
-      width: 60px;
-      height: 60px;
-      margin-bottom: 15px;
-    }
-    .svg-container svg {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-    @media (max-width: 768px) {
-      .acc-panel { flex: 1 1 100%; height: auto; }
-    }
+  .acc-panel {
+    flex: 1;
+    position: relative;
+  }
 
+  /* Hover glow effect */
+  .acc-panel:not(.acc-active):hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+  }
+
+  /* Gradient overlay for inactive panels */
+  .acc-overlay-inactive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+  /* Gradients for each process */
+  .acc-spinning .acc-overlay-inactive { background: linear-gradient(45deg, #7cb342, rgba(0, 0, 0, 0.6)); }
+  .acc-knitting .acc-overlay-inactive { background: linear-gradient(45deg, #03a9f4, rgba(0, 0, 0, 0.6)); }
+  .acc-dyeing .acc-overlay-inactive { background: linear-gradient(45deg, #e91e63, rgba(0, 0, 0, 0.6)); }
+  .acc-aop .acc-overlay-inactive { background: linear-gradient(45deg, #ff9800, rgba(0, 0, 0, 0.6)); }
+  .acc-placement .acc-overlay-inactive { background: linear-gradient(45deg, #9c27b0, rgba(0, 0, 0, 0.6)); }
+  .acc-embroidery .acc-overlay-inactive { background: linear-gradient(45deg, #8bc34a, rgba(0, 0, 0, 0.6)); }
+  .acc-yarn .acc-overlay-inactive { background: linear-gradient(45deg, #00bcd4, rgba(0, 0, 0, 0.6)); }
+  .acc-finishing .acc-overlay-inactive { background: linear-gradient(45deg, #ffc107, rgba(0, 0, 0, 0.6)); }
+
+  /* Inactive heading text */
   .acc-heading-vertical {
-  /* background-color:#79B905; */
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg); /* flips upward */
-  left: 5px;
-  top: 50%;
-  transform: translateY(-50%) rotate(180deg);
-  font-size: 14px;
-  color: #79B905 !important;
-  letter-spacing: 2px;
-  white-space: nowrap;
-  z-index: 15;
-  pointer-events: none;
-}
-.spinning{
-  background-image: url('./img/spinning.JPG');
-}
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .acc-panel.acc-active .acc-heading-vertical {
+    opacity: 0;
+  }
+
+  /* Active panel layout */
+  .acc-content {
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: stretch;
+    z-index: 5;
+    opacity: 0;
+  }
+
+  .acc-panel.acc-active .acc-content {
+    display: flex;
+  }
+
+  .acc-left, .acc-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 8px;
+  }
+
+  .acc-left {
+    margin-right: 10px;
+  }
+
+  .acc-animation-box {
+    flex: 1;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .acc-lottie-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .acc-text-box {
+    flex: 0 0 auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+  }
+
+  .acc-text-box h2 {
+    color: #6cbf00;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .acc-text-box p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .acc-btn {
+    background: #6cbf00;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .acc-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .acc-panel.acc-active .acc-content {
+      flex-direction: column;
+    }
+    .acc-left, .acc-right {
+      flex: unset;
+      width: 100%;
+      margin: 0 0 10px;
+    }
+  }

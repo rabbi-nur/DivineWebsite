@@ -236,10 +236,26 @@ document.querySelectorAll('.product-card').forEach(card => {
 });
     
     //for accordion section
-  const panels = document.querySelectorAll('.acc-panel');
-  panels.forEach(panel => {
-    panel.addEventListener('click', () => {
-      panels.forEach(p => p.classList.remove('active'));
-      panel.classList.add('active');
+const accPanels = document.querySelectorAll('.acc-panel');
+
+function resizeAccPanels(activePanel) {
+    accPanels.forEach(panel => {
+        const flexValue = (panel === activePanel) ? '65%' : `${35 / (accPanels.length - 1)}%`;
+        gsap.to(panel, { flexBasis: flexValue, duration: 0.5 });
     });
-  });
+}
+resizeAccPanels(document.querySelector('.acc-panel.acc-active'));
+
+accPanels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        if (panel.classList.contains('acc-active')) return;
+        accPanels.forEach(p => {
+            p.classList.remove('acc-active');
+            gsap.to(p.querySelector('.acc-content'), { opacity: 0, duration: 0.3 });
+        });
+        panel.classList.add('acc-active');
+        resizeAccPanels(panel);
+        gsap.to(panel.querySelector('.acc-content'), { opacity: 1, duration: 0.5, delay: 0.3 });
+    });
+});
+
