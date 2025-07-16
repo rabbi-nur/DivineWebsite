@@ -4,11 +4,11 @@
 
 <body>
     <!-- Loader -->
-<div id="loader-wrapper">
+<!-- <div id="loader-wrapper">
     <div class="loader-logo">
          <img src="img/Divine Logo.png" alt="Divine Logo" />
     </div>
-</div>
+</div> -->
 
     <?php include('header.php'); ?>
 
@@ -37,12 +37,10 @@
             stroke-miterlimit="10"
             style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
             <g transform="scale(1.5)">
-            <polyline points="0,17 8,8 18,17 27,8"/>
-            <!-- <polyline points="0,17 8,8 18,17"/>
-            <polyline points="18,17 27,8"/> --></g>
+            <polyline points="0,17 8,8 18,17 27,8"/></g>
             </svg>
             <div class="hero-texts">
-                <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;"><img src="./img/icon-text" alt="">We Chase The Future</span>
+                <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;"><img src="./img/icon_text.png" alt="">We Chase The Future</span>
                 <h2 style="color: #fff;">REDEFINING KNITWEAR <br>EXCELLENCE WITH SUSTAINABLE <br> FABRIC INNOVATION</h2>
                 <p class="subtext">Founded in 1996, we are vertically integrated, driven by R&D excellence, <br>and focused on shaping the future of fashion</p>
                 <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
@@ -550,6 +548,8 @@
 
 
     <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
@@ -559,8 +559,6 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
