@@ -28,55 +28,72 @@
     ?>
     <div class="slide" style="background-image: url('<?php echo $slide['image']; ?>');">
         <div class="hero-content">
-            <svg xmlns="http://www.w3.org/2000/svg"
-            viewBox="-5 0 45 30"
-            fill="none"
-            stroke="#75983C"
-            stroke-width="2"
-            stroke-linecap="square"
-            stroke-miterlimit="10"
-            style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
-            <g transform="scale(1.5)">
-            <polyline points="0,17 8,8 18,17 27,8"/>
-            <!-- <polyline points="0,17 8,8 18,17"/>
-            <polyline points="18,17 27,8"/> --></g>
-            </svg>
             <div class="hero-texts">
-                <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;"><img src="./img/icon-text" alt="">We Chase The Future</span>
-                <h2 style="color: #fff;">REDEFINING KNITWEAR <br>EXCELLENCE WITH SUSTAINABLE <br> FABRIC INNOVATION</h2>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="-5 0 45 30"
+                fill="none"
+                stroke="#75983C"
+                stroke-width="2"
+                stroke-linecap="square"
+                stroke-miterlimit="10"
+                style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
+                <g transform="scale(1.5)">
+                <polyline points="0,17 8,8 18,17 27,8"/>
+                </g>
+                </svg>
+                <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;">We Chase The Future</span>
+                <h2 style="color: #fff; margin-top:25px;">REDEFINING KNITWEAR <br>EXCELLENCE WITH SUSTAINABLE <br> FABRIC INNOVATION</h2>
                 <p class="subtext">Founded in 1996, we are vertically integrated, driven by R&D excellence, <br>and focused on shaping the future of fashion</p>
                 <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
             </div>
+
             <!--new content start-->
-            
-                <div class="container-counter">
+                <!-- <div class="container-counter">
                     <div class="row mt-5 text-center text-white stats-row">
-                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
+                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
                             <h4 class="fw-bold text-white">8,000+</h4>
                             <small>Clients served</small>
                         </div>
 
-                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
+                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
                             <h4 class="fw-bold text-white">3%</h4>
                             <small>Flat platform fee</small>
                         </div>
 
-                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start">
+                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
                             <h4 class="fw-bold text-white">99.9%</h4>
                             <small>Uptime guarantee</small>
                         </div>
 
-                        <div class="col-md-3 stat-col border-start">
+                        <div class="col-md-3 stat-col border-start" style="text-align: left";>
                             <h4 class="fw-bold text-white">$70M</h4>
                             <small>Total export revenue</small>
                         </div>
                     </div>
-                </div>
-                <!--new content end-->
+                </div> -->
+                <div class="container-counter mt-3">
+  <div class="row mt-5 text-white stats-row">
+    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+      <h4 class="fw-bold text-white">8,000+</h4>
+      <small>Clients served</small>
+    </div>
+    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+      <h4 class="fw-bold text-white">3%</h4>
+      <small>Flat platform fee</small>
+    </div>
+    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+      <h4 class="fw-bold text-white">99.9%</h4>
+      <small>Uptime guarantee</small>
+    </div>
+    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+      <h4 class="fw-bold text-white">$70M</h4>
+      <small>Total export revenue</small>
+    </div>
+  </div>
+</div>
 
-        </div>  
-        
-        
+                <!--new content end-->
+        </div>      
     </div>
     
     <?php } ?>
@@ -324,8 +341,234 @@
 <!--Sustainabilities section end-->
 
 <!--New accordion section-->
+<div class="acc-container">
 
-<?php include 'accordion.php'; ?>
+  <!-- Spinning -->
+  <div class="acc-panel active ">
+    <div class="acc-overlay spinning">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#6cbf00" stroke-width="1.3">
+          <style>
+            .spin-shaft { animation: rotateShaft 3s linear infinite; transform-origin: 48px 48px; }
+            @keyframes rotateShaft {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          </style>
+          <circle cx="48" cy="48" r="30" />
+          <rect class="spin-shaft" x="44" y="24" width="8" height="48" rx="2" />
+          <line x1="30" y1="48" x2="66" y2="48" />
+        </svg>
+      </div>
+      <h2>Spinning</h2>
+      <p>High-quality combed & carded yarns with cutting-edge auto-coner tech. 16 tons/day capacity.</p>
+    </div>
+  </div>
+
+  <!-- Knitting -->
+ <div class="acc-heading-vertical"><h2>Knitting</h2></div>
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#2563EB" stroke-width="1.2">
+          <style>
+            .needle1, .needle2 {
+              animation: pulseStroke 3s ease-in-out infinite;
+              transform-origin: center;
+            }
+            .needle2 { animation-delay: 1.5s; }
+            .yarn1, .yarn2 {
+              animation: fadeOpacity 4s ease-in-out infinite;
+            }
+            .yarn2 { animation-delay: 2s; }
+            @keyframes pulseStroke {
+              0%, 100% { stroke-width: 1.2; }
+              50% { stroke-width: 2; }
+            }
+            @keyframes fadeOpacity {
+              0%, 100% { opacity: 1; }
+              50% { opacity: 0.5; }
+            }
+          </style>
+          <circle cx="48" cy="48" r="28" />
+          <path class="yarn1" d="M20 48c20-20 56 20 20 0" />
+          <path class="yarn2" d="M48 20c-20 20 20 56 0 20" />
+          <path d="M36 36l24 24" />
+          <path d="M60 36l-24 24" />
+          <line class="needle1" x1="30" y1="70" x2="66" y2="26" stroke-linecap="round" />
+          <line class="needle2" x1="66" y1="70" x2="30" y2="26" stroke-linecap="round" />
+        </svg>
+      </div>
+      <h2>Knitting</h2>
+      <p>Precision circular knitting machines and advanced yarn control delivering 20,000kg/day.</p>
+    </div>
+  </div>
+
+  <!-- Dyeing -->
+ <div class="acc-heading-vertical"><h2>Dyeing</h2></div>
+
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#9333EA" stroke-width="1.4">
+          <style>
+            .drop {
+              animation: drip 2s ease-in-out infinite;
+            }
+            @keyframes drip {
+              0%, 100% { transform: translateY(0); }
+              50% { transform: translateY(6px); }
+            }
+          </style>
+          <circle cx="48" cy="48" r="28" />
+          <path class="drop" d="M48 20c4 8 8 12 0 20c-8-8-4-12 0-20z" />
+          <line x1="38" y1="50" x2="58" y2="50" />
+        </svg>
+      </div>
+      <h2>Dyeing</h2>
+      <p>Swiss & Turkish dyeing lines producing 35 tons/day of AZO-free, eco-conscious colors.</p>
+    </div>
+  </div>
+
+  <!-- All Over Printing -->
+ <div class="acc-heading-vertical"><h2>All Over Printing</h2></div>
+
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#D97706" stroke-width="1.2">
+          <style>
+            .pattern line {
+              animation: blink 1s infinite alternate;
+            }
+            @keyframes blink {
+              0% { opacity: 1; }
+              100% { opacity: 0.3; }
+            }
+          </style>
+          <rect x="20" y="20" width="56" height="56" rx="6" />
+          <g class="pattern">
+            <line x1="28" y1="28" x2="40" y2="28" />
+            <line x1="28" y1="36" x2="40" y2="36" />
+            <line x1="28" y1="44" x2="40" y2="44" />
+            <line x1="50" y1="28" x2="62" y2="28" />
+            <line x1="50" y1="36" x2="62" y2="36" />
+            <line x1="50" y1="44" x2="62" y2="44" />
+          </g>
+        </svg>
+      </div>
+      <h2>All Over Printing</h2>
+      <p>Digital + rotary systems blend automation with creativity for vibrant fabric-wide designs.</p>
+    </div>
+  </div>
+  
+  <!-- Placement Printing -->
+ <div class="acc-heading-vertical"><h2>Placement Printing</h2></div>
+
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#14B8A6" stroke-width="1.2">
+          <style>
+            .stamp {
+              animation: pop 2s ease-in-out infinite;
+            }
+            @keyframes pop {
+              0%, 100% { transform: scale(1); }
+              50% { transform: scale(1.2); }
+            }
+          </style>
+          <rect x="30" y="30" width="36" height="36" rx="4" />
+          <rect class="stamp" x="40" y="40" width="16" height="16" rx="2" />
+        </svg>
+      </div>
+      <h2>Placement Printing</h2>
+      <p>Precision-engineered digital printing for defined motifs and logos — placement perfect.</p>
+    </div>
+  </div>
+
+  <!-- Embroidery -->
+ <div class="acc-heading-vertical"><h2>Embroidery</h2></div>
+
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#EC4899" stroke-width="1.2">
+          <style>
+            .needle {
+              animation: sew 2.5s ease-in-out infinite;
+            }
+            @keyframes sew {
+              0% { transform: translateY(0); }
+              50% { transform: translateY(4px); }
+              100% { transform: translateY(0); }
+            }
+          </style>
+          <circle cx="48" cy="48" r="28" />
+          <path d="M28 48 Q48 28 68 48" />
+          <line class="needle" x1="48" y1="20" x2="48" y2="76" stroke-linecap="round" />
+        </svg>
+      </div>
+      <h2>Embroidery</h2>
+      <p>Intricate stitching brought to life by industrial Tajima embroidery heads — detailed excellence.</p>
+    </div>
+  </div>
+
+  <!-- Yarn Dyeing -->
+ <div class="acc-heading-vertical"><h2>Yarn Dyeing</h2></div>
+
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#3B82F6" stroke-width="1.2">
+          <style>
+            .circle1, .circle2 {
+              animation: bounce 3s ease-in-out infinite;
+            }
+            .circle2 { animation-delay: 1.5s; }
+            @keyframes bounce {
+              0%, 100% { transform: scale(1); }
+              50% { transform: scale(1.1); }
+            }
+          </style>
+          <circle class="circle1" cx="36" cy="48" r="12" />
+          <circle class="circle2" cx="60" cy="48" r="12" />
+          <line x1="36" y1="36" x2="60" y2="36" />
+          <line x1="36" y1="60" x2="60" y2="60" />
+        </svg>
+      </div>
+      <h2>Yarn Dyeing</h2>
+      <p>Uniform color penetration with cone-dye machines. Ideal for stripers and space-dyed effects.</p>
+    </div>
+  </div>
+
+  <!-- Dyeing & Finishing -->
+ <div class="acc-heading-vertical"><h2>Dyeing & Finishing</h2></div>
+
+  <div class="acc-panel">
+    <div class="acc-overlay">
+      <div class="svg-container">
+        <svg viewBox="0 0 96 96" fill="none" stroke="#F59E0B" stroke-width="1.3">
+          <style>
+            .wave {
+              stroke-dasharray: 8;
+              animation: dashmove 2s linear infinite;
+            }
+            @keyframes dashmove {
+              to { stroke-dashoffset: -16; }
+            }
+          </style>
+          <rect x="22" y="22" width="52" height="52" rx="6" />
+          <path class="wave" d="M26 58c8-6 12 6 20 0s12 6 20 0" />
+        </svg>
+      </div>
+      <h2>Dyeing & Finishing</h2>
+      <p>Heat setting, compacting, and calendaring for ready-to-sew finishes. Soft feel, sharp look.</p>
+    </div>
+  </div>
+
+</div>
+
 
  <!--New another section-->
       <section class="dg-sustainable-section">
@@ -374,6 +617,118 @@
         </div>
 </section>
 <!--New another section end-->
+
+    <!-- Products Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="dg-section-title text-center">
+                <h2 class="dg-title">Our Products</h2>
+                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">General </li>
+                        <li class="mx-2" data-filter=".second">Custom </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/1 (1).png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/1 (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">100% Cotton</p>
+                            <h5 class="lh-base mb-0">Single Jersey</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/2.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Cotton/Elastane</p>
+                            <h5 class="lh-base mb-0">Single Jersey</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/3 (1).png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/3 (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">100% Cotton</p>
+                            <h5 class="lh-base mb-0">Terry</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/4.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/4.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Recycle polyester Fleece (CVC)</p>
+                            <h5 class="lh-base mb-0">Fleece, Inside Brush</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/5.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/5.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Pique polo</p>
+                            <h5 class="lh-base mb-0">pique polo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/6.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/6.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Special Knit Structure</p>
+                            <h5 class="lh-base mb-0">Waffle Jersey</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Products End -->
 
     <!--New Products section Start -->
 <section>
@@ -559,8 +914,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>

@@ -169,10 +169,24 @@ a {
   position: relative;
   z-index: 2;
   max-width: 1400px;
+  margin-top: 20px !important;
  
 }
-.container-counter{
-  width: 1200px;
+
+/* Text on slider Section */
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+/* Force 2 per row on mobile */
+@media (max-width: 767.98px) {
+  .stat-col {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    text-align: left !important; /* or left if preferred */
+  }
 }
 
 .hero-content h1 {
@@ -409,7 +423,7 @@ a {
   display: block;
   width: 25px;
   height: 3px;
-  margin: 5px auto;
+  margin: -10px 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
@@ -439,7 +453,9 @@ a {
   .hamburger {
     display: block;
   }
-
+  .header-logo{
+  margin-top: -30px;
+  }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -472,7 +488,7 @@ a {
     font-size: 14px;
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 20px;
   }
 
   .top-bar {
