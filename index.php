@@ -18,7 +18,7 @@
     <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
     <?php
       $slides = [
-        ['image' => './img/DJI_0178.JPG'],
+        ['image' => './img/DJI_0178.webp'],
         ['image' => './img/11.webp'],
         ['image' => './img/12.webp'],
         ['image' => './img/DSC00115.webp'],
@@ -47,7 +47,7 @@
                 <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
             </div>
 
-            <!--new content start-->
+            
                 <!-- <div class="container-counter">
                     <div class="row mt-5 text-center text-white stats-row">
                         <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
