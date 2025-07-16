@@ -1,4 +1,5 @@
 <div class="acc-container">
+    
     <!-- Spinning -->
     <div class="acc-panel acc-spinning acc-active" style="background-image:url('img/spinning.webp')">
         <div class="acc-overlay-inactive"></div>

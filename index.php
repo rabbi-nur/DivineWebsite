@@ -209,140 +209,17 @@
     <!-- Why us End -->
 
     <!-- Process Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <!-- <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Process</h1>
-            </div>  -->
+
+    <section class="dg-sustainable-section">
+          <div class="dg-container">
             <div class="dg-section-title text-center">
-                <h2 class="dg-title">Our Process</h2>
+                <h2 class="dg-title">Sustainability Practices</h2>
                 <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/spinning.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Spinning</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/knitting.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Knitting</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/dyeing.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Dyeing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/aop.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">All Over Printing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/1.webp" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Placement Printing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/embroidery.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Embroidery</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/yarn dyeing-min.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Yarn Dyeing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/dyeing & finishing.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Dyeing & Finishing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-   </div>
+        <?php include 'accordion.php'; ?>
+    </section>
     <!-- Process End -->
-    <!--Sustainability Section Start-->
-    <!-- <div class="section-title text-center">
-        <h1 class="display-5 mb-5">Sustainability Practices</h1>
-    </div> -->
-<!-- <section class="sustainability-section">
-	<div class="sustainability-container">
-	  <div class="sustainability-card mt-5 mb-3">
-		<img src="img/ghm-sus.webp" alt="Economic Sustainability Icon" class="sustainability-icon">
-		<h3>GHG Emission Reduction</h3>
-		<p>Divine Group achieved a 21% reduction in GHG emissions from 15,071,600 
-            kg in 2019 to 10,377,250 kg in 2023, driven by continuous monitoring of CO₂</p>
-		<a href="#" class="read-more-btn">Read More</a>
-	  </div>
-	  <div class="sustainability-card mt-5 mb-3">
-		<img src="img/water-sus.webp" alt="Environmental Sustainability Icon" class="sustainability-icon">
-		<h3>Reduce Water Consumption</h3>
-		<p>We are dedicated to the conscientious and harmonious utilization of natural resources, as well as the safeguarding of our environment…</p>
-		<a href="#" class="read-more-btn">Read More</a>
-	  </div>
-	  <div class="sustainability-card mt-5 mb-3">
-		<img src="img/raw-sus.webp" alt="Social Sustainability Icon" class="sustainability-icon">
-		<h3>Sustainable Raw Material</h3>
-		<p>There is no beauty in our finest cloth or profit if we cannot contribute strong roles against hunger, poverty, and unhappiness of our people working…</p>
-		<a href="#" class="read-more-btn">Read More</a>
-	  </div>
-	</div>
-  </section> -->
-<!--Sustainabilities section end-->
-
-<!--New accordion section-->
-<?php include 'accordion.php'; ?>
-
 
  <!--New another section-->
       <section class="dg-sustainable-section">
