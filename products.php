@@ -22,9 +22,9 @@ $products = [
         "meta" => "Black Edition • Originals"
       ],
       [
-        "img1" => "img/products/card1/item_vintage_normal.webp",
-        "img2" => "img/products/card1/item_vintage_hover.webp",
-        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
         "title" => "Wales Bonner Vintage Socks",
         "meta" => "Retro Style • Limited"
       ]
@@ -51,9 +51,9 @@ $products = [
         "meta" => "Black Edition • Originals"
       ],
       [
-        "img1" => "img/products/card1/item_vintage_normal.webp",
-        "img2" => "img/products/card1/item_vintage_hover.webp",
-        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
         "title" => "Wales Bonner Vintage Socks",
         "meta" => "Retro Style • Limited"
       ]
@@ -80,9 +80,9 @@ $products = [
         "meta" => "Black Edition • Originals"
       ],
       [
-        "img1" => "img/products/card1/item_vintage_normal.webp",
-        "img2" => "img/products/card1/item_vintage_hover.webp",
-        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
         "title" => "Wales Bonner Vintage Socks",
         "meta" => "Retro Style • Limited"
       ]
