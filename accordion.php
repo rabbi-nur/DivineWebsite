@@ -60,7 +60,9 @@ $accProcesses = [
 ?>
 <div class="acc-container">
 <?php foreach($accProcesses as $index => $p): ?>
-    <div class="acc-panel <?= $p['class'] ?> <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+<?php endforeach; ?>
+<!-- Spinning Section -->
+    <div class="acc-panel acc-spinning <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
         <div class="acc-overlay-inactive"></div>
         <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
         <div class="acc-content">
@@ -81,7 +83,160 @@ $accProcesses = [
             </div>
         </div>
     </div>
-<?php endforeach; ?>
+    <!-- Knitting Section -->
+    <div class="acc-panel acc-knitting <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Dyeing Section -->
+    <div class="acc-panel acc-dyeing <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- AOP Section -->
+    <div class="acc-panel acc-aop <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Placement Section -->
+    <div class="acc-panel acc-placement <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Embroidery Section -->
+    <div class="acc-panel acc-embroidery <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Yarn Dyeing Section -->
+    <div class="acc-panel acc-yarn <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Dyeing & Finishing Section -->
+    <div class="acc-panel acc-finishing <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-animation-box">
+                    <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
+                </div>
+                <div class="acc-text-box">
+                    <h2><?= $p['name'] ?></h2>
+                    <p><?= $p['text'] ?></p>
+                    <a href="#" class="acc-btn">Read More</a>
+                </div>
+            </div>
+            <div class="acc-right">
+                <div class="acc-image-box">
+                    <img src="<?= $p['img'] ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
