@@ -62,23 +62,23 @@ $accProcesses = [
 <?php foreach($accProcesses as $index => $p): ?>
 <?php endforeach; ?>
 <!-- Spinning Section -->
-    <div class="acc-panel acc-spinning <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('<?= $p['img'] ?>')">
+    <div class="acc-panel acc-spinning <?= $index === 0 ? 'acc-active' : '' ?>" style="background-image:url('img/spinning.JPG')">
         <div class="acc-overlay-inactive"></div>
-        <div class="acc-heading-vertical"><?= strtoupper($p['name']) ?></div>
+        <div class="acc-heading-vertical">SPINNING</div>
         <div class="acc-content">
             <div class="acc-left">
                 <div class="acc-animation-box">
                     <div class="acc-lottie-container" id="acc-lottie<?= $index ?>"></div>
                 </div>
                 <div class="acc-text-box">
-                    <h2><?= $p['name'] ?></h2>
-                    <p><?= $p['text'] ?></p>
+                    <h2>Spinning</h2>
+                    <p>Transforming cotton into yarn with precision.</p>
                     <a href="#" class="acc-btn">Read More</a>
                 </div>
             </div>
             <div class="acc-right">
                 <div class="acc-image-box">
-                    <img src="<?= $p['img'] ?>" alt="">
+                    <img src="img/spinning.JPG" alt="">
                 </div>
             </div>
         </div>
