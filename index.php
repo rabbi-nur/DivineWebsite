@@ -548,19 +548,36 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+<!-- ✅ Essential Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+
+<!-- ❌ Removed Lottie (not used) -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js" defer></script> -->
+
+<!-- ✅ Bootstrap Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+<!-- ❌ Removed jQuery (not needed if we switch to pure JS) -->
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script> -->
+
+<!-- ❌ Removed WOW.js, Easing, Waypoints (used for animations and scroll effects - can replace with CSS) -->
+<!-- <script src="lib/wow/wow.min.js" defer></script> -->
+<!-- <script src="lib/easing/easing.min.js" defer></script> -->
+<!-- <script src="lib/waypoints/waypoints.min.js" defer></script> -->
+
+<!-- ❌ Removed Owl Carousel (heavy - replace with custom slider) -->
+<!-- <script src="lib/owlcarousel/owl.carousel.min.js" defer></script> -->
+
+<!-- ❌ Removed CounterUp & Isotope (not critical for performance and accordion) -->
+<!-- <script src="lib/counterup/counterup.min.js" defer></script> -->
+<!-- <script src="lib/isotope/isotope.pkgd.min.js" defer></script> -->
+
+<!-- ❌ Removed Lightbox -->
+<!-- <script src="lib/lightbox/js/lightbox.min.js" defer></script> -->
+
+<!-- ✅ Your Optimized Main JS -->
+<script src="js/main.js" defer></script>
+
 </body>
 
 </html>
