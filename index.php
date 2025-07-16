@@ -10,7 +10,7 @@
     </div>
 </div>
 
-    <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="hero">
   <div class="hero-slider">
@@ -46,61 +46,35 @@
                 <p class="subtext">Founded in 1996, we are vertically integrated, driven by R&D excellence, <br>and focused on shaping the future of fashion</p>
                 <a href="#" class="cta-btn"><i class="fa-solid fa-leaf "></i>Explore More</a><br><br>
             </div>
-
-            
-                <!-- <div class="container-counter">
-                    <div class="row mt-5 text-center text-white stats-row">
-                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
-                            <h4 class="fw-bold text-white">8,000+</h4>
-                            <small>Clients served</small>
-                        </div>
-
-                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
-                            <h4 class="fw-bold text-white">3%</h4>
-                            <small>Flat platform fee</small>
-                        </div>
-
-                        <div class="col-md-3 mb-4 mb-md-0 stat-col border-start" style="text-align: left";>
-                            <h4 class="fw-bold text-white">99.9%</h4>
-                            <small>Uptime guarantee</small>
-                        </div>
-
-                        <div class="col-md-3 stat-col border-start" style="text-align: left";>
-                            <h4 class="fw-bold text-white">$70M</h4>
-                            <small>Total export revenue</small>
-                        </div>
+             <!--counter texts-->   
+            <div class="container-counter mt-3">
+                <div class="row mt-5 text-white stats-row">
+                    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+                        <h4 class="fw-bold text-white">8,000+</h4>
+                        <small>Clients served</small>
                     </div>
-                </div> -->
-                <div class="container-counter mt-3">
-  <div class="row mt-5 text-white stats-row">
-    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-      <h4 class="fw-bold text-white">8,000+</h4>
-      <small>Clients served</small>
-    </div>
-    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-      <h4 class="fw-bold text-white">3%</h4>
-      <small>Flat platform fee</small>
-    </div>
-    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-      <h4 class="fw-bold text-white">99.9%</h4>
-      <small>Uptime guarantee</small>
-    </div>
-    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-      <h4 class="fw-bold text-white">$70M</h4>
-      <small>Total export revenue</small>
-    </div>
-  </div>
-</div>
-
-                <!--new content end-->
+                    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+                        <h4 class="fw-bold text-white">3%</h4>
+                        <small>Flat platform fee</small>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+                        <h4 class="fw-bold text-white">99.9%</h4>
+                        <small>Uptime guarantee</small>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
+                        <h4 class="fw-bold text-white">$70M</h4>
+                        <small>Total export revenue</small>
+                    </div>
+                </div>
+            </div>
+            <!--counter texts end-->
         </div>      
     </div>
-    
-    <?php } ?>
-    
 
-  
-<div class="slider-dots"></div>
+    <?php } ?>
+
+    <div class="slider-dots"></div>
+
 </section>
 
     <!-- Category Start -->
@@ -211,7 +185,7 @@
     <!-- Process Start -->
 
     <section class="dg-sustainable-section">
-          <div class="dg-container">
+        <div class="dg-container">
             <div class="dg-section-title text-center">
                 <h2 class="dg-title">Our Process</h2>
                 <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
@@ -221,13 +195,13 @@
     </section>
     <!-- Process End -->
 
- <!--New another section-->
-      <section class="dg-sustainable-section">
+ <!--New sustainability section-->
+        <section class="dg-sustainable-section">
             <div class="dg-container">
-            <div class="dg-section-title text-center">
-                <h2 class="dg-title">Sustainability Practices</h2>
-                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
-            </div>
+                <div class="dg-section-title text-center">
+                    <h2 class="dg-title">Sustainability Practices</h2>
+                    <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+                </div>
             <div class="dg-sustainable-cards">
             <div class="dg-card">
                 <span class="dg-number">01</span>
@@ -265,9 +239,9 @@
                 <a href="#"><i class="fa fa-leaf"></i> Read More</a>
             </div>
             </div>
-        </div>
-</section>
-
+            </div>
+        </section>
+<!--New sustainability section end-->
 
     <!--New Products section Start -->
 <section>
