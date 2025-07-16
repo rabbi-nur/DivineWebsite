@@ -4,11 +4,11 @@
 
 <body>
     <!-- Loader -->
-<div id="loader-wrapper">
+<!-- <div id="loader-wrapper">
     <div class="loader-logo">
          <img src="img/Divine Logo.png" alt="Divine Logo" />
     </div>
-</div>
+</div> -->
 
     <?php include('header.php'); ?>
 
@@ -209,140 +209,17 @@
     <!-- Why us End -->
 
     <!-- Process Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <!-- <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Process</h1>
-            </div>  -->
+
+    <section class="dg-sustainable-section">
+          <div class="dg-container">
             <div class="dg-section-title text-center">
-                <h2 class="dg-title">Our Process</h2>
+                <h2 class="dg-title">Sustainability Practices</h2>
                 <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/spinning.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Spinning</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/knitting.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Knitting</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/dyeing.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Dyeing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/aop.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">All Over Printing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/1.webp" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Placement Printing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/embroidery.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Embroidery</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/yarn dyeing-min.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Yarn Dyeing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/dyeing & finishing.JPG" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Dyeing & Finishing</h4>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-   </div>
+        <?php include 'accordion.php'; ?>
+    </section>
     <!-- Process End -->
-    <!--Sustainability Section Start-->
-    <!-- <div class="section-title text-center">
-        <h1 class="display-5 mb-5">Sustainability Practices</h1>
-    </div> -->
-<!-- <section class="sustainability-section">
-	<div class="sustainability-container">
-	  <div class="sustainability-card mt-5 mb-3">
-		<img src="img/ghm-sus.webp" alt="Economic Sustainability Icon" class="sustainability-icon">
-		<h3>GHG Emission Reduction</h3>
-		<p>Divine Group achieved a 21% reduction in GHG emissions from 15,071,600 
-            kg in 2019 to 10,377,250 kg in 2023, driven by continuous monitoring of CO₂</p>
-		<a href="#" class="read-more-btn">Read More</a>
-	  </div>
-	  <div class="sustainability-card mt-5 mb-3">
-		<img src="img/water-sus.webp" alt="Environmental Sustainability Icon" class="sustainability-icon">
-		<h3>Reduce Water Consumption</h3>
-		<p>We are dedicated to the conscientious and harmonious utilization of natural resources, as well as the safeguarding of our environment…</p>
-		<a href="#" class="read-more-btn">Read More</a>
-	  </div>
-	  <div class="sustainability-card mt-5 mb-3">
-		<img src="img/raw-sus.webp" alt="Social Sustainability Icon" class="sustainability-icon">
-		<h3>Sustainable Raw Material</h3>
-		<p>There is no beauty in our finest cloth or profit if we cannot contribute strong roles against hunger, poverty, and unhappiness of our people working…</p>
-		<a href="#" class="read-more-btn">Read More</a>
-	  </div>
-	</div>
-  </section> -->
-<!--Sustainabilities section end-->
-
-<!--New accordion section-->
-<?php include 'accordion.php'; ?>
-
 
  <!--New another section-->
       <section class="dg-sustainable-section">
@@ -390,119 +267,7 @@
             </div>
         </div>
 </section>
-<!--New another section end-->
 
-    <!-- Products Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="dg-section-title text-center">
-                <h2 class="dg-title">Our Products</h2>
-                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
-            </div>
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">General </li>
-                        <li class="mx-2" data-filter=".second">Custom </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/1 (1).png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/1 (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">100% Cotton</p>
-                            <h5 class="lh-base mb-0">Single Jersey</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/2.png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Cotton/Elastane</p>
-                            <h5 class="lh-base mb-0">Single Jersey</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/3 (1).png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/3 (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">100% Cotton</p>
-                            <h5 class="lh-base mb-0">Terry</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/4.png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/4.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Recycle polyester Fleece (CVC)</p>
-                            <h5 class="lh-base mb-0">Fleece, Inside Brush</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/5.png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/5.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Pique polo</p>
-                            <h5 class="lh-base mb-0">pique polo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/6.png" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/6.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Special Knit Structure</p>
-                            <h5 class="lh-base mb-0">Waffle Jersey</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Products End -->
 
     <!--New Products section Start -->
 <section>
@@ -511,103 +276,7 @@
         <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
     </div>
 
-    <div class="product-grid">
-        <div class="product-card" data-id="1">
-            <div class="product-img-container col-md-4">
-                <img src="img/lrg1.jpg" class="primary" alt="Main">
-                <img src="img/lrg2.jpg" class="secondary" alt="">
-                <img src="img/lrg3.jpg" class="secondary" alt="">
-            </div>
-            <div class="product-info">
-                <div class="product-price">$80</div>
-                <div class="product-title">Wales Bonner 3-Stripes Socks</div>
-                <div class="product-meta">2 pack • Originals</div>
-
-                <div class="swatch-slider">
-                <div class="thumb" 
-                    data-img1="img/thm1.jpg" 
-                    data-img2="img/thm2.jpg">
-                    <img src="img/thm3.jpg">
-                </div>
-
-                <div class="thumb" 
-                    data-img1="img/thm4.jpg" 
-                    data-img2="img/thm5.jpg">
-                    <img src="img/thm1.jpg">
-                </div>
-                <div class="thumb" 
-                    data-img1="img/thm1.jpg" 
-                    data-img2="img/thm2.jpg">
-                    <img src="img/thm3.jpg">
-                </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="product-card" data-id="1">
-            <div class="product-img-container col-md-4">
-                <img src="img/lrg1.jpg" class="primary" alt="Main">
-                <img src="img/lrg2.jpg" class="secondary" alt="">
-                <img src="img/lrg3.jpg" class="secondary" alt="">
-            </div>
-            <div class="product-info">
-                <div class="product-price">$80</div>
-                <div class="product-title">Wales Bonner 3-Stripes Socks</div>
-                <div class="product-meta">2 pack • Originals</div>
-
-                <div class="swatch-slider">
-                <div class="thumb" 
-                    data-img1="img/thm1.jpg" 
-                    data-img2="img/thm2.jpg">
-                    <img src="img/thm3.jpg">
-                </div>
-
-                <div class="thumb" 
-                    data-img1="img/thm4.jpg" 
-                    data-img2="img/thm5.jpg">
-                    <img src="img/thm1.jpg">
-                </div>
-                <div class="thumb" 
-                    data-img1="img/thm1.jpg" 
-                    data-img2="img/thm2.jpg">
-                    <img src="img/thm3.jpg">
-                </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="product-card" data-id="1">
-                <div class="product-img-container col-md-4">
-                    <img src="img/lrg1.jpg" class="primary" alt="Main">
-                    <img src="img/lrg2.jpg" class="secondary" alt="">
-                    <img src="img/lrg3.jpg" class="secondary" alt="">
-                </div>
-            <div class="product-info">
-                <div class="product-price">$80</div>
-                <div class="product-title">Wales Bonner 3-Stripes Socks</div>
-                <div class="product-meta">2 pack • Originals</div>
-
-                <div class="swatch-slider">
-                    <div class="thumb" 
-                        data-img1="img/thm1.jpg" 
-                        data-img2="img/thm2.jpg">
-                        <img src="img/thm3.jpg">
-                    </div>
-
-                    <div class="thumb" 
-                        data-img1="img/thm4.jpg" 
-                        data-img2="img/thm5.jpg">
-                        <img src="img/thm1.jpg">
-                    </div>
-                    <div class="thumb" 
-                        data-img1="img/thm1.jpg" 
-                        data-img2="img/thm2.jpg">
-                        <img src="img/thm3.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include 'products.php'; ?>
 </section>
     <!--New Products End -->
 
