@@ -4,11 +4,11 @@
 
 <body>
     <!-- Loader -->
-<!-- <div id="loader-wrapper">
+<div id="loader-wrapper">
     <div class="loader-logo">
          <img src="img/Divine Logo.png" alt="Divine Logo" />
     </div>
-</div> -->
+</div>
 
     <?php include('header.php'); ?>
 
