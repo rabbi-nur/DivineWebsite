@@ -1556,7 +1556,16 @@ a {
 .counter-text{
   text-align: left;
 }
+/* Counter number styling */
+
+.dg-process-section {
+  padding: 60px 0px;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* New sustainability css start */
+
 .dg-sustainable-section {
   padding: 60px 20px;
   background: #fff;
@@ -1798,7 +1807,9 @@ a {
       border-color: #000;
     }
 
-     /*========CSS  for accordion ===============*/
+
+/*========CSS  for accordion ===============*/
+
 .acc-container {
   display: flex;
   height: 100vh;

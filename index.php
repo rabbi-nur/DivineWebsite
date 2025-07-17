@@ -184,7 +184,7 @@
 
     <!-- Process Start -->
 
-    <section class="dg-sustainable-section">
+    <section class="dg-process-section">
         <div class="dg-container">
             <div class="dg-section-title text-center">
                 <h2 class="dg-title">Our Process</h2>
@@ -253,9 +253,6 @@
     <?php include 'products.php'; ?>
 </section>
     <!--New Products End -->
-
-
-
 
     <!--Buyer section Start  -->
     <section class="container-xxl client-logos py-5 buyer container-fluid buyer-bg">
