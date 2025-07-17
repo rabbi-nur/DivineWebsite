@@ -1,0 +1,24 @@
+# Node, PHP, and build artifacts
+node_modules/
+assest_backup/
+*.log
+.DS_Store
+*.tmp
+/dist/
+/build/
+.env
+.sass-cache/
+.cache/
+.idea/
+.vscode/
+__pycache__/
+*.bak
+*.swp
+*.swo
+*.orig
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Images and assets backup
+assest_backup/
