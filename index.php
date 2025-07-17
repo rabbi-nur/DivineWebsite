@@ -349,9 +349,6 @@
 
 <!-- ✅ Your Optimized Main JS -->
 <script src="js/main.js" defer></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
 
 </html>
