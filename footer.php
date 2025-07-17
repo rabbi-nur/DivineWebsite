@@ -14,8 +14,8 @@
     <div class="footer-column">
       <h3>Company</h3>
       <ul>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Home</a></li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">About</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="index.php">Home</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="about.php">About</a></li>
         <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Our Story</a></li>
         <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Explore More</a></li>
       </ul>

@@ -20,7 +20,7 @@
   <div class="header-logo"><img src="img/DtlLogo.png" width="60" height="36"/>&nbsp;&nbsp;Divine Group</div>
   <div>
   <ul class="nav-links-de">
-    <li><a href="#">About Us</a></li>
+    <li><a href="about.php">About Us</a></li>
     <li><a href="#">Products</a></li>
     <li><a href="#">Our Process</a></li>
     <li><a href="#">Sustainability</a></li>
