@@ -21,7 +21,7 @@
   <div>
   <ul class="nav-links-de">
     <li><a href="about.php">About Us</a></li>
-    <li><a href="#">Products</a></li>
+    <li><a href="/?page=products">Products</a></li>
     <li><a href="#">Our Process</a></li>
     <li><a href="#">Sustainability</a></li>
     <li><a href="#">Contact</a></li>

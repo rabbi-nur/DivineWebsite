@@ -11,6 +11,6 @@ $allowed = [
 if (array_key_exists($page, $allowed)) {
     include __DIR__ . '/pages/' . $allowed[$page];
 } else {
-    include __DIR__ . '/pages/index.php'; // fallback to home
+    include __DIR__ . '/pages/' . $allowed['home']; // fallback to home
 }
 ?>

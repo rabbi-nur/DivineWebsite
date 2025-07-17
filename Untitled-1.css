@@ -1,0 +1,25 @@
+/* General Card styles from <style> tag */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Styles from inline style attributes */
+.product-card {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.product-title {
+    color: #333;
+}
+
+.product-price {
+    color: grey;
+    font-size: 22px;
+}
