@@ -15,21 +15,21 @@
       <h3>Company</h3>
       <ul>
         <!-- <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Home</li> -->
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Home</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> About</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Our Story</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Explore More</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Home</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; About</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Our Story</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Explore More</li>
       </ul>
     </div>
 
     <div class="footer-column">
       <h3>Category</h3>
       <ul>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Sustainable Fashion</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Eco-Conscious Footwear</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Eco-Friendly Bags</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Home Decor & Crafts</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Sustainable Packaging</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Sustainable Fashion</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Eco-Conscious Footwear</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Eco-Friendly Bags</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Home Decor & Crafts</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Sustainable Packaging</li>
       </ul>
     </div>
 
