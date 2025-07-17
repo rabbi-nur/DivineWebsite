@@ -14,33 +14,31 @@
     <div class="footer-column">
       <h3>Company</h3>
       <ul>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Home</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> About</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Our Story</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Explore More</li>
+        <!-- <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Home</li> -->
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Home</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> About</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Our Story</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Explore More</li>
       </ul>
     </div>
 
     <div class="footer-column">
       <h3>Category</h3>
       <ul>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Sustainable Fashion</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Eco-Conscious Footwear</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Eco-Friendly Bags</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Home Decor & Crafts</li>
-        <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Sustainable Packaging</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Sustainable Fashion</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Eco-Conscious Footwear</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Eco-Friendly Bags</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Home Decor & Crafts</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span> Sustainable Packaging</li>
       </ul>
     </div>
 
     <div class="footer-column">
       <h3>Contact</h3>
       <ul>
-        <li>📱 <a href="tel:+8801750000379" style="
-    text-decoration: none !important;
-    color: #fff;">+880 1750-000379</a></li></li>
-        <li>📧 <a href="mailto:info@divinetextile.com" style="
-    text-decoration: none !important;
-    color: #fff;">info@divinetextile.com</a></li></li>
+        <!-- <li><i class="fa-brands fa-whatsapp"></i><a href="tel:+8801750000379" style="text-decoration: none !important; color: #fff;">&nbsp;+880 1750-000379</a></li></li> -->
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="fa-brands fa-whatsapp"></i></span><a href="tel:+8801750000379" style="text-decoration: none !important; color: #fff;">&nbsp;&nbsp;+880 1750-000379</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="fa-regular fa-envelope"></i></span><a href="mailto:info@divinetextile.com" style="text-decoration: none !important; color: #fff;">&nbsp;&nbsp;info@divinetextile.com</a></li>
       </ul>
     </div>
   </div>
