@@ -14,22 +14,21 @@
     <div class="footer-column">
       <h3>Company</h3>
       <ul>
-        <!-- <li><span style="font-size: 1.5rem; color: #85c41c;">🪢</span> Home</li> -->
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Home</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; About</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Our Story</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Explore More</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Home</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">About</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Our Story</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Explore More</a></li>
       </ul>
     </div>
 
     <div class="footer-column">
       <h3>Category</h3>
       <ul>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Sustainable Fashion</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Eco-Conscious Footwear</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Eco-Friendly Bags</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Home Decor & Crafts</li>
-        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; Sustainable Packaging</li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Sustainable Fashion</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Eco-Conscious Footwear</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Eco-Friendly Bags</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Home Decor & Crafts</a></li>
+        <li><span style="font-size: 16px; color: #85c41c;"><i class="far fa-arrow-alt-circle-right"></i></span>&nbsp; <a href="#">Sustainable Packaging</a></li>
       </ul>
     </div>
 
@@ -45,11 +44,11 @@
 
   <div class="footer-bottom">
       <div class="social-icons">
-    <a href="https://www.facebook.com/divinetextile/" style="color: #fff; margin-right:10px;"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://x.com/dglbd?t=b_CJ4U7SSeU7cAgo9OvOtg&s=08" style="color: #fff; margin-right:10px;"><i class="fab fa-x-twitter"></i></a>
-    <a href="https://www.linkedin.com/company/divinegrouplimited" style="color: #fff"><i class="fab fa-linkedin-in"></i></a>
-  </div>
-    <p>© Copyrights 2025 Divine Group</p>
+        <a href="https://www.facebook.com/divinetextile/" style="color: #fff; margin-right:10px;"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/dglbd?t=b_CJ4U7SSeU7cAgo9OvOtg&s=08" style="color: #fff; margin-right:10px;"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/divinegrouplimited" style="color: #fff"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p style="color: #aaa;">© Copyrights 2025 Divine Group</p>
   </div>
 
   <a href="https://wa.me/8801302592851" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
