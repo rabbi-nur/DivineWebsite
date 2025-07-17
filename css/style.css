@@ -66,9 +66,7 @@ a {
 
 
 .footer .social-icons a:hover {
-  background-color: #79B905;
-  border-color: #79B905;
-  
+ /* color: #000; */
 }
 
 .footer-column li {
