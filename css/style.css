@@ -1107,27 +1107,37 @@ a {
 
 /*Sustainibility End */
 
-
-/*certifications css start*/
-
-.certifications {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+/*===============================
+  Start DG Certificate CSS
+===============================*/
+.dg-certificate {
+  background-image: url('../img/client-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  position: relative;
 }
 
-.certifications img {
-  border: 1px solid #1f1f1f; 
-  padding: 10px;
-  border-radius: 12px; 
-  background-color: #fff; 
-  width: 100px;
-  height: auto;
+.dg-certificate .single-dg-certificate img {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  float: none;
+  padding: 0 35px;
 }
-
+.overlay:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.9;
+}
+/*===============================
+  End DG Certificate CSS
+===============================*/
 
 /*contact info*/
 .contact-card {

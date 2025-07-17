@@ -33,7 +33,7 @@
                 viewBox="-5 0 45 30"
                 fill="none"
                 stroke="#75983C"
-                stroke-width="2"
+                stroke-width="1.5"
                 stroke-linecap="square"
                 stroke-miterlimit="10"
                 style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
@@ -137,21 +137,22 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title position-relative pb-3 mb-5">
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                viewBox="-5 0 45 30"
-                                fill="none"
-                                stroke="#75983C"
-                                stroke-width="2"
-                                stroke-linecap="square"
-                                stroke-miterlimit="10"
-                                style="height: 20px; width: auto; vertical-align: middle; margin-right: 6px;">
-                                <g transform="scale(1.5)"><polyline points="0,17 8,8 18,17 27,8"/></g>
-                            </svg>
-                            <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;">About Divine Group</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-5 0 45 30"
+                        fill="none"
+                        stroke="#75983C"
+                        stroke-width="1.5"
+                        stroke-linecap="square"
+                        stroke-miterlimit="10"
+                        style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
+                        <g transform="scale(1.5)">
+                        <polyline points="0,17 8,8 18,17 27,8"/>
+                        </g>
+                        </svg>
+                        <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;">About Divine Group</span>
 
                         <!-- <h5 class="fw-bold text-primary text-uppercase">About Divine Group</h5> -->
-                        <h2 class="mb-0">5 Reasons We are special</h2>
+                        <h2 class="mb-0 mt-2">5 Reasons We are special</h2>
                     </div>
                     <p class="mb-4" style="color:#000;">Ever since our inception in 1997 it has been our sole purpose to produce high quality apparels made to meet the needs of the buyer, with inch-perfect accuracy and high reliablity</p>
                     <div class="row g-0 mb-3">
@@ -278,31 +279,32 @@
 <!--Buyer section End  -->
 
  <!-- Certifications Start -->
-    <section>
-        <div class="container-fluid py-5 wow fadeInUp clients scirtificate-new" data-wow-delay="0.1s" >
-            <div class="container py-3 mb-5">
-                <div class="dg-section-title text-center">
-                    <h2 class="dg-title">Certifications</h2>
-                    <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
-                </div>
-                <div class="bg-white">
-                    <div class="owl-carousel vendor-carousel certifications">
-                        <img src="img/crt1.png" alt="1">
-                        <img src="img/crt2.png" alt="2">
-                        <img src="img/crt3.png" alt="3">
-                        <img src="img/crt4.png" alt="4">
-                        <img src="img/crt5.png" alt="5">
-                        <img src="img/crt1.png" alt="6">
-                        <img src="img/crt2.png" alt="7">
+
+<section class="">
+    <div class="dg-section-title text-center"  style="margin-top: 70px;">
+        <h2 class="dg-title">Certifications</h2>
+        <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+    </div>
+    <div class="dg-certificate overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel dg-certificate-slider">
+                        <div class="single-dg-certificate"><img src="img/crt1.png" alt="#"></div>
+                        <div class="single-dg-certificate"><img src="img/crt2.png" alt="#"></div>
+                        <div class="single-dg-certificate"><img src="img/crt3.png" alt="#"> </div>
+                        <div class="single-dg-certificate"><img src="img/crt4.png" alt="#"></div>
+                        <div class="single-dg-certificate"><img src="img/crt5.png" alt="#"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>     
+    </div>
+</section>
+    
     <!-- Certifications End -->
 
     
-
     <!-- Footer Start -->
     <?php include('footer.php'); ?>
     <!-- Footer End -->
@@ -323,29 +325,20 @@
 <!-- ✅ Bootstrap Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
 
-<!-- ❌ Removed jQuery (not needed if we switch to pure JS) -->
-<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script> -->
-
-<!-- ❌ Removed WOW.js, Easing, Waypoints (used for animations and scroll effects - can replace with CSS) -->
-<!-- <script src="lib/wow/wow.min.js" defer></script> -->
-<!-- <script src="lib/easing/easing.min.js" defer></script> -->
-<!-- <script src="lib/waypoints/waypoints.min.js" defer></script> -->
-
-<!-- ❌ Removed Owl Carousel (heavy - replace with custom slider) -->
-<!-- <script src="lib/owlcarousel/owl.carousel.min.js" defer></script> -->
-
-<!-- ❌ Removed CounterUp & Isotope (not critical for performance and accordion) -->
-<!-- <script src="lib/counterup/counterup.min.js" defer></script> -->
-<!-- <script src="lib/isotope/isotope.pkgd.min.js" defer></script> -->
-
-<!-- ❌ Removed Lightbox -->
-<!-- <script src="lib/lightbox/js/lightbox.min.js" defer></script> -->
-
 <!-- ✅ Your Optimized Main JS -->
 <script src="js/main.js" defer></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+
+<!-- jQuery (Required for Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
 </body>
 
 </html>
