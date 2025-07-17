@@ -281,25 +281,19 @@
     <section>
         <div class="container-fluid py-5 wow fadeInUp clients scirtificate-new" data-wow-delay="0.1s" >
             <div class="container py-3 mb-5">
-                <!-- <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                    <h1 class="display-5 mb-5">Certifications</h1>
-
-                </div> -->
                 <div class="dg-section-title text-center">
-                <h2 class="dg-title">Certifications</h2>
-                <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
-            </div>
+                    <h2 class="dg-title">Certifications</h2>
+                    <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
+                </div>
                 <div class="bg-white">
                     <div class="owl-carousel vendor-carousel certifications">
-                        <img src="img/crt1.png" alt="">
-                        <img src="img/crt2.png" alt="">
-                        <img src="img/crt3.png" alt="">
-                        <img src="img/crt4.png" alt="">
-                        <img src="img/crt5.png" alt="">
-                        <img src="img/crt1.png" alt="">
-                        <img src="img/crt2.png" alt="">
-                        
-
+                        <img src="img/crt1.png" alt="1">
+                        <img src="img/crt2.png" alt="2">
+                        <img src="img/crt3.png" alt="3">
+                        <img src="img/crt4.png" alt="4">
+                        <img src="img/crt5.png" alt="5">
+                        <img src="img/crt1.png" alt="6">
+                        <img src="img/crt2.png" alt="7">
                     </div>
                 </div>
             </div>

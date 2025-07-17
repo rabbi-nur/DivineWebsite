@@ -66,9 +66,13 @@ a {
 
 
 .footer .social-icons a:hover {
-  background-color: #79B905;
-  border-color: #79B905;
-  
+ /* color: #000; */
+}
+.footer-column h3{
+  color: #fff;
+}
+.footer-column p{
+  color: #aaa;
 }
 
 .footer-column li {
@@ -77,12 +81,12 @@ a {
 }
 
 .footer-column li a {
-  color: #fff;
+  color: #aaa !important;
   text-decoration: none;
 }
 
 .footer-column li a:hover {
-  color: #85c41c;
+  color: #85c41c ;
 }
 
 .main-nav {
@@ -373,11 +377,11 @@ a {
 }
 .subscribe-form button {
   background-color: #85c41c;
-  color: #000;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 25px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 .footer-bottom {
@@ -385,7 +389,6 @@ a {
   margin-top: 30px;
 }
 .whatsapp-btn {
-  margin-top: -50px;
   position: fixed;
   bottom: 100px;
   right: 38px;
@@ -1104,26 +1107,8 @@ a {
 
 /*Sustainibility End */
 
-/*certifications slider start*/
 
-/* .clients{
-	background-image:url('');
-  background: #fff;
-	background-size:cover;
-	background-position:center;
-	padding:100px 0px;
-	position:relative;
-}
-
-.clients .single-clients img {
-	width: 100%;
-	cursor: pointer;
-	text-align: center;
-	float: none;
-	padding: 0 35px;
-} */
-
-/*certifications CSS End */
+/*certifications css start*/
 
 .certifications {
     display: flex;
@@ -1135,187 +1120,13 @@ a {
 }
 
 .certifications img {
-  border: 1px solid #ccc; /* add light gray border */
+  border: 1px solid #1f1f1f; 
   padding: 10px;
-  border-radius: 8px; /* optional: rounded corners */
-  background-color: #fff; /* optional: white background */
-  width: 100px; /* adjust size as needed */
+  border-radius: 12px; 
+  background-color: #fff; 
+  width: 100px;
   height: auto;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional: soft shadow */
 }
-
-/*new css*/
-
-/* Section with fixed background */
-.client-section {
-  background-image: url('../img/about.JPG'); /* Use your background image path */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 80px 0;
-  position: relative;
-  width: 100%;
-  color: #222;
-}
-
-/* Optional white overlay */
-.overlay {
-  background-color: rgba(255, 255, 255, 0.95); /* adjust to darker if needed */
-  padding: 60px 20px;
-}
-
-/* Title */
-.section-title h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 40px;
-}
-
-/* Logo grid */
-.logo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 30px !important;
-  align-items: center;
-  justify-items: center;
-}
-
-/* Logos */
-.logo {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-  filter: drop-shadow(0 0 6px rgba(0,0,0,0.1));
-}
-
-.logo:hover {
-  transform: scale(1.05);
-}
-
-/* Animations */
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: 0.3s;
-}
-
-.fade-in-left {
-  opacity: 0;
-  transform: translateX(-30px);
-  animation: fadeInLeft 1s ease forwards;
-  animation-delay: 0.3s;
-}
-
-.fade-in-right {
-  opacity: 0;
-  transform: translateX(30px);
-  animation: fadeInRight 1s ease forwards;
-  animation-delay: 0.3s;
-}
-
-/* Keyframes */
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInLeft {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeInRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Responsive Container */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/*test for clients css*/
-
-/* Fixed full-screen background */
-.client-section {
-  background: url('../img/embroidery.JPG') no-repeat center center/cover;
-  padding: 80px 0;
-  background-attachment: fixed;
-  min-height: 100vh;
-  position: relative;
-}
-
-/* Central white content area */
-.client-content {
-  background-color: rgba(255, 255, 255, 0.97); /* Slight opacity */
-
-  margin: 0 auto;
-  padding: 60px 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-/* Title styling */
-.section-title {
-  /* text-align: center; */
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 50px;
-  color: #222;
-}
-
-/* Four column layout */
-.logo-columns {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-/* Individual column styling */
-.logo-column {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  flex: 1;
-  min-width: 200px;
-}
-
-/* Logo images */
-.logo-column img {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.logo-column img:hover {
-  transform: scale(1.05);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .logo-columns {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logo-column {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .logo-column img {
-    max-width: 140px;
-    margin: 10px;
-  }
-}
-
 
 
 /*contact info*/
@@ -1435,7 +1246,7 @@ a {
 }
 
 
-/*======Buyer section start ========*/
+/*======Buyer/clients section start ========*/
 .buyer{
     background: url('../img/') no-repeat center center/cover;
     background-color: rgb(78, 67, 67) ;
@@ -1535,9 +1346,6 @@ a {
 .about-btn:hover{
   background-color: #001819 !important;
   color: white !important;
-}
-.footer-column h3{
-  color: #fff;
 }
 
 
