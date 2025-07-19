@@ -1,3 +1,128 @@
+// === About Page Animations & Carousels ===
+document.addEventListener('DOMContentLoaded', () => {
+  // GSAP fade-up animation for elements with data-animate
+  if (window.gsap && window.ScrollTrigger) {
+    gsap.utils.toArray('[data-animate]').forEach(elem => {
+      gsap.from(elem, {
+        opacity: 0,
+        y: 30,
+        duration: 1,
+        scrollTrigger: {
+          trigger: elem,
+          start: "top 80%",
+          toggleActions: "play none none none"
+        }
+      });
+    });
+    gsap.from(".ab_team-card", {
+      opacity: 0,
+      y: 50,
+      stagger: 0.2,
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".ab_team-grid",
+        start: "top 80%"
+      }
+    });
+    gsap.from(".ab_why-card", {
+      opacity: 0,
+      y: 40,
+      duration: 1,
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: ".ab_why-grid",
+        start: "top 80%"
+      }
+    });
+    gsap.from(".ab_timeline-item", {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      stagger: 0.3,
+      scrollTrigger: {
+        trigger: ".ab_timeline",
+        start: "top 80%"
+      }
+    });
+  }
+
+  // Animated Counters
+  document.querySelectorAll('.ab_counter').forEach(counter => {
+    let started = false;
+    const animate = () => {
+      const value = +counter.getAttribute('data-target');
+      let current = 0;
+      const step = value / 100;
+      const update = () => {
+        current += step;
+        if (current < value) {
+          counter.innerText = Math.ceil(current).toLocaleString();
+          requestAnimationFrame(update);
+        } else {
+          counter.innerText = value.toLocaleString();
+        }
+      };
+      update();
+    };
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting && !started) {
+        animate();
+        started = true;
+        observer.disconnect();
+      }
+    }, { threshold: 1 });
+    observer.observe(counter);
+  });
+
+  // 3D Tilt for About Cards
+  document.querySelectorAll('.ab_card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      card.style.transform = `rotateY(${x / 25}deg) rotateX(${y / -25}deg) scale(1.05)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'rotateY(0deg) rotateX(0deg) scale(1)';
+    });
+  });
+
+  // Auto Scroll for About Concerns Strip
+  const strip = document.querySelector('.ab_scroll-strip');
+  if (strip) {
+    let scrollSpeed = 1;
+    setInterval(() => {
+      strip.scrollLeft += scrollSpeed;
+      if (strip.scrollLeft >= strip.scrollWidth - strip.clientWidth) {
+        strip.scrollLeft = 0;
+      }
+    }, 30);
+  }
+
+  // Testimonials Carousel (Swiper)
+  if (window.Swiper) {
+    new Swiper('.ab_testimonials-carousel', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: { delay: 4000 },
+      pagination: { el: '.swiper-pagination', clickable: true },
+      autoHeight: true,
+    });
+    // Trusted by Logos Carousel
+    new Swiper('.ab_logo-carousel', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: { delay: 1800 },
+      breakpoints: {
+        576: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        992: { slidesPerView: 4 },
+      },
+    });
+  }
+});
 // ✅ Hide loader after page load
 window.addEventListener("load", () => {
   const loader = document.getElementById("loader-wrapper");
