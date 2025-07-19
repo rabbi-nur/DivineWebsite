@@ -22,19 +22,23 @@ This framework provides a clean, organized structure for the Divine Group websit
 │   ├── home-content.php        # Home page content only
 │   ├── about-content.php       # About page content only
 │   ├── products-content.php    # Products page content only
-│   └── contact-content.php     # Contact page content only
-├── index-new.php               # Main router (NEW ENTRY POINT)
+│   ├── contact-content.php     # Contact page content only
+│   ├── process-content.php     # Process page content only
+│   └── sustainability-content.php # Sustainability page content only
+├── index.php                   # Main router (ENTRY POINT)
 └── css/, js/, img/             # Assets (unchanged)
 ```
 
 ## How to Use
 
-### 1. Access the New Framework
-Use `index-new.php` as your main entry point:
-- `index-new.php` - Home page
-- `index-new.php?page=about` - About page
-- `index-new.php?page=products` - Products page
-- `index-new.php?page=contact` - Contact page
+### 1. Access the Website
+The website now uses clean URLs:
+- `/` or `index.php` - Home page
+- `/?page=about` - About page
+- `/?page=products` - Products page
+- `/?page=contact` - Contact page
+- `/?page=process` - Process page
+- `/?page=sustainability` - Sustainability page
 
 ### 2. Creating a New Page
 
@@ -76,7 +80,7 @@ require_once __DIR__ . '/../includes/page-helper.php';
 ```
 
 #### Step 2: Add the page to the router
-Edit `index-new.php` and add your page to the `$pages` array:
+Edit `index.php` and add your page to the `$pages` array:
 
 ```php
 $pages = [
@@ -91,7 +95,7 @@ $pages = [
 ```
 
 #### Step 3: Access your new page
-Visit: `index-new.php?page=services`
+Visit: `/?page=services`
 
 That's it! Your new page will automatically have:
 - Consistent header and footer
@@ -167,21 +171,19 @@ include_component('sustainability-section', ['sustainability_cards' => $custom_s
 6. **Reusable Components**: Common sections can be reused across pages
 7. **Clean URLs**: Easy to implement URL rewriting later
 
-## Migration from Old Structure
+## Clean Structure
 
-Your existing files are preserved. The new framework works alongside them:
-- `index.php` - Old home page (still works)
-- `index2.php` - Old alternative home page (still works)
-- `index-new.php` - New framework entry point
-
-You can gradually migrate pages to the new framework or use both systems simultaneously.
+The project has been cleaned up and organized:
+- All old files have been removed
+- `index.php` is now the main framework entry point
+- Clean, consistent navigation throughout the site
+- Reusable components for easy maintenance
 
 ## Next Steps
 
-1. Test the new framework with `index-new.php`
-2. Create additional pages as needed
+1. Test the framework with `index.php` (your main website)
+2. Create additional pages as needed using the simple process above
 3. Customize components for your specific needs
-4. Consider implementing URL rewriting for cleaner URLs
-5. Add any missing pages (process, sustainability, etc.)
+4. Consider implementing URL rewriting for even cleaner URLs (remove ?page= from URLs)
 
 The framework is designed to be simple yet powerful, making website maintenance and expansion much easier!
