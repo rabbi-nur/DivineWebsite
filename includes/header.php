@@ -20,11 +20,12 @@
   <div class="header-logo"><img src="img/DtlLogo.png" width="60" height="36"/>&nbsp;&nbsp;Divine Group</div>
   <div>
   <ul class="nav-links-de">
-    <li><a href="about.php">About Us</a></li>
-    <li><a href="/?page=products">Products</a></li>
-    <li><a href="#">Our Process</a></li>
-    <li><a href="#">Sustainability</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="index-new.php">Home</a></li>
+    <li><a href="index-new.php?page=about">About Us</a></li>
+    <li><a href="index-new.php?page=products">Products</a></li>
+    <li><a href="index-new.php?page=process">Our Process</a></li>
+    <li><a href="index-new.php?page=sustainability">Sustainability</a></li>
+    <li><a href="index-new.php?page=contact">Contact</a></li>
     <li><a href="#">Profile</a></li>
   </ul>
   </div>
