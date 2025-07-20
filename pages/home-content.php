@@ -25,10 +25,17 @@ render_hero_slider();
 <!-- Sustainability Section -->
 <?php include_component('sustainability-section'); ?>
 
-<!-- Products Section -->
+<!-- Premium Products Section -->
 <section>
-    <?php render_section_title('Our Products', 'Driving Impact Through Responsible Innovation'); ?>
-    <?php include 'products.php'; ?>
+    <?php render_section_title('Our Premium Products', 'Exceptional Quality for Discerning Clients'); ?>
+    <?php include_component('premium-products'); ?>
+    
+    <!-- View All Products CTA -->
+    <div class="text-center mt-5">
+        <a href="/?page=products" class="btn btn-outline-primary btn-lg px-5 py-3">
+            <i class="fas fa-th-large me-2"></i>View All Products
+        </a>
+    </div>
 </section>
 
 <!-- Clients Section -->
