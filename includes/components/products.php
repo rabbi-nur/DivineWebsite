@@ -153,10 +153,10 @@ $products = [
                 <div class="product-price"><?= $product['price'] ?></div>
                 <div class="product-title"><?= $product['title'] ?></div>
                 <div class="product-meta"><?= $product['meta'] ?></div>
-                <div class="product-actions mt-3">
+                <!-- <div class="product-actions mt-3">
                     <a href="/?page=contact" class="btn btn-primary btn-sm">Get Quote</a>
                     <a href="/?page=products" class="btn btn-outline-secondary btn-sm">View Details</a>
-                </div>
+                </div> -->
             </div>
         </article>
         <?php endforeach; ?>

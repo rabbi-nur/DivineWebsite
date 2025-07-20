@@ -2139,7 +2139,7 @@ a {
 
 .acc-container {
   display: flex;
-  height: 100vh;
+  height: 75vh;
   overflow: hidden;
 }
 
@@ -2224,6 +2224,10 @@ a {
   }
 
   .acc-left, .acc-right {
+    margin-top: 30px;
+    max-width: 75%;
+    flex: 1;
+    height: 60%;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -2255,7 +2259,6 @@ a {
   .acc-text-box {
     flex: 0 0 auto;
     padding: 15px;
-    background: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
   }
 
@@ -2266,6 +2269,7 @@ a {
   }
 
   .acc-text-box p {
+    color: #fff;
     font-size: 1rem;
     margin-bottom: 15px;
   }
