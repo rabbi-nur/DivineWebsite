@@ -761,7 +761,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Action buttons
     actionBtns.forEach(btn => {
         btn.addEventListener('click', function() {
-            window.location.href = '/?page=products';
+            window.location.href = './?page=products';
         });
     });
 

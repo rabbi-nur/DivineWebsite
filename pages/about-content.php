@@ -48,7 +48,7 @@ require_once __DIR__ . '/../includes/page-helper.php';
                     </div>
                     <div class="hero-actions">
                         <?php render_cta_button('Our Story', '#story', 'fa-solid fa-arrow-down'); ?>
-                        <a href="/?page=contact" class="btn-secondary">
+                        <a href="./?page=contact" class="btn-secondary">
                             <span>Get in Touch</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
@@ -722,11 +722,11 @@ require_once __DIR__ . '/../includes/page-helper.php';
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <div class="cta-actions">
-                        <a href="/?page=contact" class="btn-primary">
+                        <a href="./?page=contact" class="btn-primary">
                             <span>Start Partnership</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="/?page=products" class="btn-secondary">
+                        <a href="./?page=products" class="btn-secondary">
                             <span>View Products</span>
                             <i class="fas fa-eye"></i>
                         </a>
