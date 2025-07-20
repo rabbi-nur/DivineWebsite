@@ -20,12 +20,12 @@ $default_meta = [
 
 // Navigation menu
 $navigation = [
-    'home' => ['title' => 'Home', 'url' => '/', 'active' => true],
-    'about' => ['title' => 'About Us', 'url' => '/about', 'active' => true],
-    'products' => ['title' => 'Products', 'url' => '/products', 'active' => true],
-    'process' => ['title' => 'Our Process', 'url' => '/process', 'active' => true],
-    'sustainability' => ['title' => 'Sustainability', 'url' => '/sustainability', 'active' => true],
-    'contact' => ['title' => 'Contact', 'url' => '/contact', 'active' => true],
-    'profile' => ['title' => 'Profile', 'url' => '/profile', 'active' => true]
+    'home' => ['title' => 'Home', 'url' => './', 'active' => true],
+    'about' => ['title' => 'About Us', 'url' => './?page=about', 'active' => true],
+    'products' => ['title' => 'Products', 'url' => './?page=products', 'active' => true],
+    'process' => ['title' => 'Our Process', 'url' => './?page=process', 'active' => true],
+    'sustainability' => ['title' => 'Sustainability', 'url' => './?page=sustainability', 'active' => true],
+    'contact' => ['title' => 'Contact', 'url' => './?page=contact', 'active' => true],
+    'profile' => ['title' => 'Profile', 'url' => './?page=profile', 'active' => true]
 ];
 ?>

@@ -32,7 +32,7 @@ render_hero_slider();
     
     <!-- View All Products CTA -->
     <div class="text-center mt-5">
-        <a href="/?page=products" class="btn btn-outline-primary btn-lg px-5 py-3">
+        <a href="./?page=products" class="btn btn-outline-primary btn-lg px-5 py-3">
             <i class="fas fa-th-large me-2"></i>View All Products
         </a>
     </div>
