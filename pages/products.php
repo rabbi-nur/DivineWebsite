@@ -6,57 +6,119 @@
 
 $products = [
   [
-    "title" => "Premium Knitwear",
+    "title" => "Premium Textile Collection",
     "price" => "Contact for Quote",
     "meta"  => "High Quality • Sustainable",
-    "mainImage" => "img/products/knit1.webp",
-    "hoverImage" => "img/products/knit1-hover.webp",
+    "mainImage" => "img/products/card1/item_normal.webp",
+    "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
       [
-        "img1" => "img/products/knit1.webp",
-        "img2" => "img/products/knit1-hover.webp",
-        "thumb" => "img/products/knit1-thumb.webp",
-        "title" => "Premium Knitwear",
-        "meta" => "Cotton Blend • Sustainable"
+        "img1" => "img/products/card1/item_normal.webp",
+        "img2" => "img/products/card1/item_hover.webp",
+        "thumb" => "img/products/card1/item_thumb.webp",
+        "title" => "Premium Textile Collection",
+        "meta" => "Original White • Premium Quality"
       ],
       [
-        "img1" => "img/products/knit2.webp",
-        "img2" => "img/products/knit2-hover.webp",
-        "thumb" => "img/products/knit2-thumb.webp",
-        "title" => "Organic Cotton Knit",
-        "meta" => "100% Organic • GOTS Certified"
+        "img1" => "img/products/card1/item_black_normal.webp",
+        "img2" => "img/products/card1/item_black_hover.webp",
+        "thumb" => "img/products/card1/item_black_thumb.webp",
+        "title" => "Black Edition Collection",
+        "meta" => "Black Edition • Premium"
+      ],
+      [
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
+        "title" => "Pink Collection",
+        "meta" => "Pink Edition • Stylish"
+      ],
+      [
+        "img1" => "img/products/card1/item_vintage_normal.webp",
+        "img2" => "img/products/card1/item_vintage_hover.webp",
+        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "title" => "Vintage Collection",
+        "meta" => "Vintage Style • Limited Edition"
       ]
     ]
   ],
   [
-    "title" => "Sustainable Fabrics",
+    "title" => "Knitting Solutions",
     "price" => "Contact for Quote",
-    "meta"  => "Eco-Friendly • Premium Quality",
-    "mainImage" => "img/products/fabric1.webp",
-    "hoverImage" => "img/products/fabric1-hover.webp",
+    "meta"  => "Premium Knit • Eco-Friendly",
+    "mainImage" => "img/knitting.webp",
+    "hoverImage" => "img/knitting.JPG",
     "variants" => [
       [
-        "img1" => "img/products/fabric1.webp",
-        "img2" => "img/products/fabric1-hover.webp",
-        "thumb" => "img/products/fabric1-thumb.webp",
-        "title" => "Sustainable Fabrics",
-        "meta" => "Recycled Materials • Eco-Friendly"
+        "img1" => "img/knitting.webp",
+        "img2" => "img/knitting.JPG",
+        "thumb" => "img/knitting.webp",
+        "title" => "Knitting Solutions",
+        "meta" => "Premium Knit Fabrics"
       ]
     ]
   ],
   [
-    "title" => "Custom Textiles",
+    "title" => "Spinning Services",
     "price" => "Contact for Quote",
-    "meta"  => "Made to Order • Premium",
-    "mainImage" => "img/products/custom1.webp",
-    "hoverImage" => "img/products/custom1-hover.webp",
+    "meta"  => "High-Quality Yarn • Sustainable",
+    "mainImage" => "img/spinning.webp",
+    "hoverImage" => "img/spinning.JPG",
     "variants" => [
       [
-        "img1" => "img/products/custom1.webp",
-        "img2" => "img/products/custom1-hover.webp",
-        "thumb" => "img/products/custom1-thumb.webp",
-        "title" => "Custom Textiles",
-        "meta" => "Bespoke Design • Premium Quality"
+        "img1" => "img/spinning.webp",
+        "img2" => "img/spinning.JPG",
+        "thumb" => "img/spinning.webp",
+        "title" => "Spinning Services",
+        "meta" => "Premium Yarn Production"
+      ]
+    ]
+  ],
+  [
+    "title" => "Dyeing & Finishing",
+    "price" => "Contact for Quote",
+    "meta"  => "Advanced Dyeing • Color Excellence",
+    "mainImage" => "img/dyeing.webp",
+    "hoverImage" => "img/dyeing.JPG",
+    "variants" => [
+      [
+        "img1" => "img/dyeing.webp",
+        "img2" => "img/dyeing.JPG",
+        "thumb" => "img/dyeing.webp",
+        "title" => "Dyeing & Finishing",
+        "meta" => "Advanced Color Solutions"
+      ]
+    ]
+  ],
+  [
+    "title" => "All Over Print (AOP)",
+    "price" => "Contact for Quote",
+    "meta"  => "Custom Printing • Innovative Designs",
+    "mainImage" => "img/aop.webp",
+    "hoverImage" => "img/aop.JPG",
+    "variants" => [
+      [
+        "img1" => "img/aop.webp",
+        "img2" => "img/aop.JPG",
+        "thumb" => "img/aop.webp",
+        "title" => "All Over Print (AOP)",
+        "meta" => "Custom Print Solutions"
+      ]
+    ]
+  ],
+  [
+    "title" => "Embroidery Services",
+    "price" => "Contact for Quote",
+    "meta"  => "Exquisite Embroidery • Premium Finish",
+    "mainImage" => "img/embroidery.webp",
+    "hoverImage" => "img/embroidery.JPG",
+    "variants" => [
+      [
+        "img1" => "img/embroidery.webp",
+        "img2" => "img/embroidery.JPG",
+        "thumb" => "img/embroidery.webp",
+        "title" => "Embroidery Services",
+        "meta" => "Premium Embroidery Work"
       ]
     ]
   ]
@@ -130,6 +192,33 @@ $products = [
     aspect-ratio: 1/1;
     overflow: hidden;
     background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid #79B905;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 1;
+}
+
+.product-img-container img:first-child {
+    z-index: 2;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 .product-img-container img {
@@ -138,6 +227,12 @@ $products = [
     height: 100%;
     object-fit: cover;
     transition: opacity 0.4s ease;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
 }
 
 .product-img-container img.secondary { opacity: 0; }
@@ -246,6 +341,7 @@ $products = [
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize product cards
     document.querySelectorAll('.product-card').forEach(card => {
         const primaryImg = card.querySelector('img.primary');
         const secondaryImg = card.querySelector('img.secondary');
@@ -256,55 +352,101 @@ document.addEventListener('DOMContentLoaded', function() {
         const leftArrow = card.querySelector('.arrow.left');
         const rightArrow = card.querySelector('.arrow.right');
 
+        // Check if all required elements exist
+        if (!primaryImg || !secondaryImg || !titleEl || !metaEl) {
+            console.warn('Missing required elements in product card');
+            return;
+        }
+
         let currentIndex = 0;
 
         function updateVariant(index) {
+            if (index < 0 || index >= thumbs.length) return;
+            
             thumbs.forEach(t => t.classList.remove('active'));
-            if (thumbs[index]) {
-                thumbs[index].classList.add('active');
-                primaryImg.src = thumbs[index].dataset.img1;
-                secondaryImg.src = thumbs[index].dataset.img2;
+            thumbs[index].classList.add('active');
+            
+            // Update images with error handling
+            const newImg1 = thumbs[index].dataset.img1;
+            const newImg2 = thumbs[index].dataset.img2;
+            
+            if (newImg1) primaryImg.src = newImg1;
+            if (newImg2) secondaryImg.src = newImg2;
 
-                titleEl.style.opacity = 0;
-                metaEl.style.opacity = 0;
-                setTimeout(() => {
-                    titleEl.textContent = thumbs[index].dataset.title;
-                    metaEl.textContent = thumbs[index].dataset.meta;
-                    titleEl.style.opacity = 1;
-                    metaEl.style.opacity = 1;
-                }, 300);
-            }
+            // Update text with smooth transition
+            titleEl.style.opacity = 0;
+            metaEl.style.opacity = 0;
+            
+            setTimeout(() => {
+                titleEl.textContent = thumbs[index].dataset.title || 'Product';
+                metaEl.textContent = thumbs[index].dataset.meta || 'Premium Quality';
+                titleEl.style.opacity = 1;
+                metaEl.style.opacity = 1;
+            }, 150);
         }
 
-        if (leftArrow) {
-            leftArrow.addEventListener('click', () => {
+        // Arrow navigation
+        if (leftArrow && thumbs.length > 1) {
+            leftArrow.addEventListener('click', (e) => {
+                e.preventDefault();
                 currentIndex = (currentIndex - 1 + thumbs.length) % thumbs.length;
                 updateVariant(currentIndex);
+                
                 if (slider && thumbs[currentIndex]) {
-                    slider.scrollTo({ left: thumbs[currentIndex].offsetLeft - 20, behavior: 'smooth' });
+                    const scrollLeft = Math.max(0, thumbs[currentIndex].offsetLeft - 20);
+                    slider.scrollTo({ left: scrollLeft, behavior: 'smooth' });
                 }
             });
         }
 
-        if (rightArrow) {
-            rightArrow.addEventListener('click', () => {
+        if (rightArrow && thumbs.length > 1) {
+            rightArrow.addEventListener('click', (e) => {
+                e.preventDefault();
                 currentIndex = (currentIndex + 1) % thumbs.length;
                 updateVariant(currentIndex);
+                
                 if (slider && thumbs[currentIndex]) {
-                    slider.scrollTo({ left: thumbs[currentIndex].offsetLeft - 20, behavior: 'smooth' });
+                    const scrollLeft = Math.max(0, thumbs[currentIndex].offsetLeft - 20);
+                    slider.scrollTo({ left: scrollLeft, behavior: 'smooth' });
                 }
             });
         }
 
+        // Thumbnail interactions
         thumbs.forEach((thumb, i) => {
+            // Hover effect
             thumb.addEventListener('mouseenter', () => {
-                primaryImg.src = thumb.dataset.img1;
-                secondaryImg.src = thumb.dataset.img2;
+                const img1 = thumb.dataset.img1;
+                const img2 = thumb.dataset.img2;
+                if (img1) primaryImg.src = img1;
+                if (img2) secondaryImg.src = img2;
             });
-            thumb.addEventListener('click', () => {
+
+            // Click to select
+            thumb.addEventListener('click', (e) => {
+                e.preventDefault();
                 currentIndex = i;
                 updateVariant(currentIndex);
             });
+        });
+
+        // Hide arrows if only one variant
+        if (thumbs.length <= 1) {
+            if (leftArrow) leftArrow.style.display = 'none';
+            if (rightArrow) rightArrow.style.display = 'none';
+        }
+    });
+
+    // Add loading states for images
+    document.querySelectorAll('.product-card img').forEach(img => {
+        img.addEventListener('load', function() {
+            this.style.opacity = '1';
+        });
+        
+        img.addEventListener('error', function() {
+            console.warn('Failed to load image:', this.src);
+            // You can set a placeholder image here if needed
+            // this.src = 'img/placeholder.jpg';
         });
     });
 });
