@@ -1,7 +1,7 @@
 <?php
 // Site Configuration
 define('SITE_NAME', 'Divine Group');
-define('SITE_URL', 'https://divinetextile.com');
+define('SITE_URL', 'https://divinetextile.com/DG4');
 define('SITE_DESCRIPTION', 'Premium textile solutions with sustainability at heart');
 
 // Paths
