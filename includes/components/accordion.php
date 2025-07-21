@@ -16,14 +16,29 @@
         </div>
     </div>
 
-    <!-- Knitting -->
-    <div class="acc-panel acc-knitting" style="background-image:url('img/knitting.webp')">
+    <!-- Yarn Dyeing -->
+    <div class="acc-panel acc-yarn" style="background-image:url('img/yarn dyeing-min.webp')">
         <div class="acc-overlay-inactive"></div>
-        <div class="acc-heading-vertical">KNITTING</div>
+        <div class="acc-heading-vertical">YARN DYEING</div>
         <div class="acc-content">
             <div class="acc-left">
                 <div class="acc-text-box">
-                    <h2>Knitting</h2>
+                    <h2>Yarn Dyeing</h2>
+                    <p>Yarn Dyeing is a process in which yarns are dyed before they are woven or knitted into fabrics. This method allows for greater color penetration and is commonly used to create patterned fabrics such as stripes, checks, and plaids. Yarn dyeing is typically done using techniques like package dyeing, hank dyeing, or beam dyeing. It offers excellent colorfastness and enables designers to produce intricate designs with multiple colors. This process is widely used in the production of shirting fabrics, upholstery, and other high-quality textiles where precise and consistent coloration is essential for aesthetic and design purposes.</p> <br>
+                    <?php render_cta_button('Explore More'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Knitting -->
+    <div class="acc-panel acc-knitting" style="background-image:url('img/knitting.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">CIRCULAR KNITTING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>circular Knitting</h2>
                     <p>Knitting is a fabric construction method in which yarns are looped together using needles to form a textile. Unlike weaving, which uses intersecting yarns, knitting creates fabrics with interconnected loops, providing natural stretch and flexibility. Knitted fabrics are known for their comfort, softness, and breathability, making them ideal for clothing items such as t-shirts, sweaters, socks, and sportswear. Knitting can be done by hand or by machine, and it comes in two main types: weft knitting (commonly used in circular machines) and warp knitting (often used in tricot and raschel machines). The design possibilities in knitting are vast, allowing for various textures, weights, and patterns, making it a preferred technique in fashion and functional textiles.</p> <br>
                     <?php render_cta_button('Explore More'); ?>
                 </div>
@@ -41,6 +56,21 @@
                 <div class="acc-text-box">
                     <h2>Dyeing</h2>
                     <p>Dyeing is the process of applying color to textile materials such as fibers, yarns, fabrics, or even finished garments. It is a crucial step that determines the final appearance and aesthetic appeal of a textile product. Depending on the type of fiber and desired effect, various dyeing methods are used, including reactive dyeing, vat dyeing, acid dyeing, and disperse dyeing. Dyeing can be performed at different stages—fiber dyeing (top dyeing), yarn dyeing, fabric dyeing (piece dyeing), or garment dyeing. Each method has its own advantages and applications. The goal is to achieve colorfastness, uniformity, and vibrant hues. Modern dyeing processes are increasingly focused on sustainability, using water-efficient methods and eco-friendly dyes to minimize environmental impact.</p> <br>v
+                    <?php render_cta_button('Explore More'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dyeing & Finishing -->
+    <div class="acc-panel acc-finishing" style="background-image:url('img/dyeing & finishing.webp')">
+        <div class="acc-overlay-inactive"></div>
+        <div class="acc-heading-vertical">FINISHING</div>
+        <div class="acc-content">
+            <div class="acc-left">
+                <div class="acc-text-box">
+                    <h2>Finishing</h2>
+                    <p>Finishing is a crucial stage in textile manufacturing that enhances both the appearance and functionality of fabrics. Dyeing involves applying color to fibers, yarns, or fabrics using various techniques such as reactive, disperse, or vat dyeing, depending on the fiber type. It ensures uniform color, colorfastness, and visual appeal. Finishing processes follow dyeing and include treatments like softening, shrinking, water repellent coating, and anti-pilling. These treatments improve fabric performance, durability, and feel. Together, dyeing and finishing play a vital role in delivering high-quality, market-ready textiles that meet both aesthetic and functional demands in fashion and industrial applications.</p> <br>
                     <?php render_cta_button('Explore More'); ?>
                 </div>
             </div>
@@ -92,33 +122,22 @@
         </div>
     </div>
 
-    <!-- Yarn Dyeing -->
-    <div class="acc-panel acc-yarn" style="background-image:url('img/yarn dyeing-min.webp')">
+    <!-- Sewing -->
+    <div class="acc-panel acc-Sewing" style="background-image:url('img/sewing.webp')">
         <div class="acc-overlay-inactive"></div>
-        <div class="acc-heading-vertical">YARN DYEING</div>
+        <div class="acc-heading-vertical">SEWING</div>
         <div class="acc-content">
             <div class="acc-left">
                 <div class="acc-text-box">
-                    <h2>Yarn Dyeing</h2>
-                    <p>Yarn Dyeing is a process in which yarns are dyed before they are woven or knitted into fabrics. This method allows for greater color penetration and is commonly used to create patterned fabrics such as stripes, checks, and plaids. Yarn dyeing is typically done using techniques like package dyeing, hank dyeing, or beam dyeing. It offers excellent colorfastness and enables designers to produce intricate designs with multiple colors. This process is widely used in the production of shirting fabrics, upholstery, and other high-quality textiles where precise and consistent coloration is essential for aesthetic and design purposes.</p> <br>
+                    <h2>Sewing</h2>
+                    <p></p> <br>
                     <?php render_cta_button('Explore More'); ?>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Dyeing & Finishing -->
-    <div class="acc-panel acc-finishing" style="background-image:url('img/dyeing & finishing.webp')">
-        <div class="acc-overlay-inactive"></div>
-        <div class="acc-heading-vertical">DYEING & FINISHING</div>
-        <div class="acc-content">
-            <div class="acc-left">
-                <div class="acc-text-box">
-                    <h2>Dyeing & Finishing</h2>
-                    <p>Dyeing & Finishing is a crucial stage in textile manufacturing that enhances both the appearance and functionality of fabrics. Dyeing involves applying color to fibers, yarns, or fabrics using various techniques such as reactive, disperse, or vat dyeing, depending on the fiber type. It ensures uniform color, colorfastness, and visual appeal. Finishing processes follow dyeing and include treatments like softening, shrinking, water repellent coating, and anti-pilling. These treatments improve fabric performance, durability, and feel. Together, dyeing and finishing play a vital role in delivering high-quality, market-ready textiles that meet both aesthetic and functional demands in fashion and industrial applications.</p> <br>
-                    <?php render_cta_button('Explore More'); ?>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+
+    
 </div>

@@ -22,7 +22,7 @@ require_once __DIR__ . '/../includes/page-helper.php';
         <?php render_section_title('Manufacturing Excellence', 'End-to-end textile production process'); ?>
         
         <!-- Process Steps -->
-        <div class="row g-4">
+        <!-- <div class="row g-4">
             <div class="col-lg-4 col-md-6">
                 <div class="process-step text-center p-4">
                     <div class="step-number mb-3">
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../includes/page-helper.php';
                         <span class="badge bg-primary rounded-circle p-3 fs-4">2</span>
                     </div>
                     <img src="img/knitting.webp" alt="Knitting" class="img-fluid rounded mb-3" style="height: 200px; width: 100%; object-fit: cover;">
-                    <h4>Knitting</h4>
+                    <h4>Circular Knitting</h4>
                     <p>Precision knitting processes creating premium fabrics with optimal comfort and durability.</p>
                 </div>
             </div>
@@ -88,7 +88,7 @@ require_once __DIR__ . '/../includes/page-helper.php';
                     <p>Final quality checks and finishing touches ensuring every product meets our high standards.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 
