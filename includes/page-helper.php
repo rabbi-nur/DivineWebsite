@@ -85,20 +85,20 @@ function render_hero_slider($slides = []) {
                     <div class="container-counter mt-3">
                         <div class="row mt-5 text-white stats-row">
                             <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-                                <h4 class="fw-bold text-white">8,000+</h4>
-                                <small>Clients served</small>
+                                <h4 class="fw-bold text-white">15,000+ </h4>
+                                <small>Team Members</small>
                             </div>
                             <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-                                <h4 class="fw-bold text-white">3%</h4>
-                                <small>Flat platform fee</small>
+                                <h4 class="fw-bold text-white">$100M</h4>
+                                <small>Total Revenue</small>
                             </div>
                             <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-                                <h4 class="fw-bold text-white">99.9%</h4>
-                                <small>Uptime guarantee</small>
+                                <h4 class="fw-bold text-white">24 Million</h4>
+                                <small>Apparel Produced</small>
                             </div>
                             <div class="col-6 col-md-3 mb-4 stat-col text-start border-start">
-                                <h4 class="fw-bold text-white">$70M</h4>
-                                <small>Total export revenue</small>
+                                <h4 class="fw-bold text-white">109 Tons</h4>
+                                <small>Packaging Recycled</small>
                             </div>
                         </div>
                     </div>
