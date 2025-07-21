@@ -23,16 +23,15 @@
           <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
             <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fabric Innovation & Advanced R&D</h6>
             <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Sustainability Commitment</h6>
+            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Global Certifications & Standards</h6>
+          </div>
+          <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+         
             <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Technology Integration</h6>
             <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Superior Product Quality</h6>
           </div>
-          <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Global Certifications & Standards</h6>
-            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Diverse Product Range</h6>
-            <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Ethical Manufacturing Practices</h6>
-          </div>
         </div>
-        <a href="#" class="btn btn-primary py-3 px-5 mt-3">About Us</a>
+        <?php render_cta_button('Explore More'); ?>
       </div>
       <div class="col-lg-6 pe-lg-0" style="min-height: 500px;">
         <div class="position-relative h-100">
