@@ -1791,11 +1791,36 @@ a {
     width: 100%;
     height: auto;
     padding: 30px;
-    box-sizing: border-box;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    /* border-right: 1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
     opacity: 0.2;
 } 
+.logo:nth-child(1){
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.logo:nth-child(2){
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.logo:nth-child(3){
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.logo:nth-child(4){
+  border-bottom: 1px solid #ccc;
+}
+.logo:nth-child(5){
+  border-right: 1px solid #ccc;
+}
+.logo:nth-child(6){
+  border-right: 1px solid #ccc;
+}
+.logo:nth-child(7){
+  border-right: 1px solid #ccc;
+}
+
+
 
 /* General fade-in */
 .fade-in {
