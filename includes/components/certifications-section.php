@@ -6,7 +6,7 @@ $certifications = $certifications ?? [
     'img/crt1.png', 'img/crt2.png', 'img/crt3.png', 'img/crt4.png', 'img/crt5.png'
 ];
 ?>
-<section class="">
+<section class="dg-certificate ">
     <?php render_section_title('Certifications', 'Driving Impact Through Responsible Innovation'); ?>
     <div class="dg-certificate overlay">
         <div class="container">

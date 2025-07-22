@@ -1620,19 +1620,26 @@ a {
   Start DG Certificate CSS
 ===============================*/
 .dg-certificate {
-  background-image: url('../img/client-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 0px;
+  
+  /* background-image: url('../img/client-bg.jpg'); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  margin-top: 50px;
+  padding: 40px 0px;
   position: relative;
+  background: rgb(224, 224, 224);
 }
 
-.dg-certificate .single-dg-certificate img {
+.dg-certificat.section_title{
+  padding-bottom: 0px !important;
+}
+
+.single-dg-certificate img {
   width: 100%;
   cursor: pointer;
   text-align: center;
   float: none;
-  padding: 0 35px;
+  padding: 0px 40px;
 }
 .overlay:before {
     position: absolute;
@@ -1641,7 +1648,6 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000;
     opacity: 0.9;
 }
 /*===============================
@@ -1783,16 +1789,11 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
-    /* border-top: 1px solid #ccc; */
-    /* border-left: 1px solid #ccc; */
 }
-
  .logo {
     width: 100%;
     height: auto;
     padding: 30px;
-    /* border-right: 1px solid #ccc; */
-    /* border-bottom: 1px solid #ccc; */
     opacity: 0.2;
 } 
 .logo:nth-child(1){
@@ -1819,8 +1820,6 @@ a {
 .logo:nth-child(7){
   border-right: 1px solid #ccc;
 }
-
-
 
 /* General fade-in */
 .fade-in {
