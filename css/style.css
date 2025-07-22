@@ -2139,12 +2139,17 @@ a {
 
 .acc-container {
   display: flex;
+  width: 100%; /* initialq width */
   height: 75vh;
   overflow: hidden;
 }
 
+.acc-container.active {
+  width: 100%; /* expand to full width on active */
+}
+
 .acc-panel {
-  flex: 1;
+  flex: 2;
   position: relative;
   background-size: cover;
   background-position: center;

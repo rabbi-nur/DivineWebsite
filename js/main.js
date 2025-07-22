@@ -185,20 +185,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ✅ Accordion
   const accPanels = document.querySelectorAll(".acc-panel");
-  const resizePanels = active => {
-    accPanels.forEach(p => gsap.to(p, { flexBasis: (p === active) ? "65%" : `${35 / (accPanels.length - 1)}%`, duration: 0.5 }));
-  };
-  resizePanels(document.querySelector(".acc-active"));
-  accPanels.forEach(panel => panel.addEventListener("click", () => {
-    if (panel.classList.contains("acc-active")) return;
+const container = document.querySelector(".acc-container"); // Add this class to the parent container
+
+const resizePanels = active => {
+  if (active) {
+    container.classList.add("active");
+    accPanels.forEach(p => {
+      const basis = (p === active) ? "60%" : `${40 / (accPanels.length - 1)}%`;
+      gsap.to(p, { flexBasis: basis, duration: 0.5 });
+    });
+  } else {
+    container.classList.remove("active");
+    const basis = `${40 / accPanels.length}%`;
+    accPanels.forEach(p => {
+      gsap.to(p, { flexBasis: basis, duration: 0.5 });
+    });
+  }
+};
+
+// Initial layout: all inactive
+resizePanels(null);
+
+accPanels.forEach(panel => {
+  panel.addEventListener("click", () => {
+    const isActive = panel.classList.contains("acc-active");
+
+    // Clear all
     accPanels.forEach(p => {
       p.classList.remove("acc-active");
       gsap.to(p.querySelector(".acc-content"), { opacity: 0, duration: 0.3 });
     });
-    panel.classList.add("acc-active");
-    resizePanels(panel);
-    gsap.to(panel.querySelector(".acc-content"), { opacity: 1, duration: 0.5, delay: 0.3 });
-  }));
+
+    // If previously active, reset layout
+    if (isActive) {
+      resizePanels(null);
+    } else {
+      panel.classList.add("acc-active");
+      resizePanels(panel);
+      gsap.to(panel.querySelector(".acc-content"), { opacity: 1, duration: 0.5, delay: 0.3 });
+    }
+  });
+});
 
   // ✅ Product Image Hover
   document.querySelectorAll(".product-card").forEach(card => {
