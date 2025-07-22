@@ -196,7 +196,7 @@ const resizePanels = active => {
     });
   } else {
     container.classList.remove("active");
-    const basis = `${40 / accPanels.length}%`;
+    const basis = `${60 / accPanels.length}%`;
     accPanels.forEach(p => {
       gsap.to(p, { flexBasis: basis, duration: 0.5 });
     });

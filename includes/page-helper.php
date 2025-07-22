@@ -77,7 +77,7 @@ function render_hero_slider($slides = []) {
                         </g>
                         </svg>
                         <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;">We Chase The Future</span>
-                        <h2 style="color: #fff; margin-top:25px;">REDEFINING KNITWEAR <br>EXCELLENCE WITH SUSTAINABLE <br> FABRIC INNOVATION</h2>
+                        <h2 style="color: #fff; margin-top:25px;">Redefining Knitwear <br> Excellence With Sustainable <br> Fabric Innovation</h2>
                         <p class="subtext">Founded in 1996, we are vertically integrated, driven by R&D excellence, <br>and focused on shaping the future of fashion</p>
                         <?php render_cta_button('Explore More'); ?>
                     </div>

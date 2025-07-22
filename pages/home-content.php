@@ -21,10 +21,26 @@ render_hero_slider();
     </div>
     <div class="acc-container">
         <!-- Spinning (Always open) -->
-        <div class="acc-panel acc-spinning active" style="background-image:url('img/spinning.webp')">
+        <div class="acc-panel acc-first active" style="background-image:url('img/spinning.webp')">
+            <!-- <div class="acc-overlay-inactive"></div> -->
+            <!-- <div class="acc-heading-vertical">SPINNING</div> -->
+            <div class="acc-content first-acc" style="display:block;">
+                <!-- <div class="acc-left">
+                    <div class="acc-text-box">
+                        <h2>Spinning</h2>
+                        <p>Spinning is the fundamental process in textile manufacturing where raw fibers are transformed into yarn. This process begins with cleaning and preparing fibers like cotton, polyester, or viscose. The fibers are then carded and combed to align them and remove impurities. Next, they are drawn out and twisted to form continuous strands called yarn. The quality of the spinning process directly affects the strength, smoothness, and durability of the yarn, which in turn influences the quality of the final fabric. There are various spinning methods including ring spinning, rotor spinning, and air-jet spinning, each suitable for different types of fibers and end uses. Spinning is essential in both woven and knitted fabric production and sets the foundation for the entire textile value chain.</p><br>
+                        <?php render_cta_button('Explore More'); ?>
+                    </div>
+                </div> -->
+                <div>Hello</div>
+            </div>
+        </div>
+
+        <!-- Spinning -->
+        <!-- <div class="acc-panel acc-spinning " style="background-image:url('img/spinning.webp')">
             <div class="acc-overlay-inactive"></div>
-            <div class="acc-heading-vertical stair-heading stair-1">SPINNING</div>
-            <div class="acc-content" style="display:block;">
+            <div class="acc-heading-vertical">SPINNING</div>
+            <div class="acc-content">
                 <div class="acc-left">
                     <div class="acc-text-box">
                         <h2>Spinning</h2>
@@ -33,13 +49,13 @@ render_hero_slider();
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <!-- Yarn Dyeing -->
+        
         <!-- Yarn Dyeing -->
         <div class="acc-panel acc-yarn" style="background-image:url('img/yarn dyeing-min.webp')">
             <div class="acc-overlay-inactive"></div>
-            <div class="acc-heading-vertical stair-heading stair-2">YARN DYEING</div>
+            <div class="acc-heading-vertical">YARN DYEING</div>
             <div class="acc-content">
                 <div class="acc-left">
                     <div class="acc-text-box">
@@ -55,7 +71,7 @@ render_hero_slider();
         <!-- Knitting -->
         <div class="acc-panel acc-knitting" style="background-image:url('img/knitting.webp')">
             <div class="acc-overlay-inactive"></div>
-            <div class="acc-heading-vertical stair-heading stair-3">CIRCULAR KNITTING</div>
+            <div class="acc-heading-vertical">CIRCULAR KNITTING</div>
             <div class="acc-content">
                 <div class="acc-left">
                     <div class="acc-text-box">
@@ -70,7 +86,7 @@ render_hero_slider();
         <!-- Dyeing -->
         <div class="acc-panel acc-dyeing" style="background-image:url('img/dyeing.webp')">
             <div class="acc-overlay-inactive"></div>
-            <div class="acc-heading-vertical stair-heading stair-4">DYEING</div>
+            <div class="acc-heading-vertical">DYEING</div>
             <div class="acc-content">
                 <div class="acc-left">
                     <div class="acc-text-box">
@@ -85,7 +101,7 @@ render_hero_slider();
         <!--Finishing -->
         <div class="acc-panel acc-finishing" style="background-image:url('img/dyeing & finishing.webp')">
             <div class="acc-overlay-inactive"></div>
-            <div class="acc-heading-vertical stair-heading stair-5">FINISHING</div>
+            <div class="acc-heading-vertical">FINISHING</div>
             <div class="acc-content">
                 <div class="acc-left">
                     <div class="acc-text-box">
@@ -100,7 +116,7 @@ render_hero_slider();
         <!-- All Over Printing -->
         <div class="acc-panel acc-aop" style="background-image:url('img/aop.webp')">
             <div class="acc-overlay-inactive"></div>
-            <div class="acc-heading-vertical stair-heading stair-6">ALL OVER PRINTING</div>
+            <div class="acc-heading-vertical">ALL OVER PRINTING</div>
             <div class="acc-content">
                 <div class="acc-left">
                     <div class="acc-text-box">
