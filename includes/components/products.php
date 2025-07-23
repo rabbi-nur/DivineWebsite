@@ -6,9 +6,9 @@
 
 $products = [
   [
-    "title" => "Premium Textile Collection",
-    "price" => "Contact for Quote",
-    "meta"  => "High Quality • Sustainable",
+    "title" => "Product Name:",
+    "type" => "Category Name",
+    "meta"  => "Color:",
     "mainImage" => "img/products/card1/item_normal.webp",
     "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
@@ -43,85 +43,191 @@ $products = [
     ]
   ],
   [
-    "title" => "Knitting Solutions",
-    "price" => "Contact for Quote",
-    "meta"  => "Premium Knit • Eco-Friendly",
-    "mainImage" => "img/knitting.webp",
-    "hoverImage" => "img/knitting.JPG",
+    "title" => "Product Name:",
+    "type" => "Category Name",
+    "meta"  => "Color:",
+    "mainImage" => "img/products/card1/item_normal.webp",
+    "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
       [
-        "img1" => "img/knitting.webp",
-        "img2" => "img/knitting.JPG",
-        "thumb" => "img/knitting.webp",
-        "title" => "Knitting Solutions",
-        "meta" => "Premium Knit Fabrics"
+        "img1" => "img/products/card1/item_normal.webp",
+        "img2" => "img/products/card1/item_hover.webp",
+        "thumb" => "img/products/card1/item_thumb.webp",
+        "title" => "Premium Textile Collection",
+        "meta" => "Original White • Premium Quality"
+      ],
+      [
+        "img1" => "img/products/card1/item_black_normal.webp",
+        "img2" => "img/products/card1/item_black_hover.webp",
+        "thumb" => "img/products/card1/item_black_thumb.webp",
+        "title" => "Black Edition Collection",
+        "meta" => "Black Edition • Premium"
+      ],
+      [
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
+        "title" => "Pink Collection",
+        "meta" => "Pink Edition • Stylish"
+      ],
+      [
+        "img1" => "img/products/card1/item_vintage_normal.webp",
+        "img2" => "img/products/card1/item_vintage_hover.webp",
+        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "title" => "Vintage Collection",
+        "meta" => "Vintage Style • Limited Edition"
       ]
     ]
   ],
   [
-    "title" => "Spinning Services",
-    "price" => "Contact for Quote",
-    "meta"  => "High-Quality Yarn • Sustainable",
-    "mainImage" => "img/spinning.webp",
-    "hoverImage" => "img/spinning.JPG",
+    "title" => "Product Name:",
+    "type" => "Category Name",
+    "meta"  => "Color:",
+    "mainImage" => "img/products/card1/item_normal.webp",
+    "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
       [
-        "img1" => "img/spinning.webp",
-        "img2" => "img/spinning.JPG",
-        "thumb" => "img/spinning.webp",
-        "title" => "Spinning Services",
-        "meta" => "Premium Yarn Production"
+        "img1" => "img/products/card1/item_normal.webp",
+        "img2" => "img/products/card1/item_hover.webp",
+        "thumb" => "img/products/card1/item_thumb.webp",
+        "title" => "Premium Textile Collection",
+        "meta" => "Original White • Premium Quality"
+      ],
+      [
+        "img1" => "img/products/card1/item_black_normal.webp",
+        "img2" => "img/products/card1/item_black_hover.webp",
+        "thumb" => "img/products/card1/item_black_thumb.webp",
+        "title" => "Black Edition Collection",
+        "meta" => "Black Edition • Premium"
+      ],
+      [
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
+        "title" => "Pink Collection",
+        "meta" => "Pink Edition • Stylish"
+      ],
+      [
+        "img1" => "img/products/card1/item_vintage_normal.webp",
+        "img2" => "img/products/card1/item_vintage_hover.webp",
+        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "title" => "Vintage Collection",
+        "meta" => "Vintage Style • Limited Edition"
       ]
     ]
   ],
   [
-    "title" => "Dyeing & Finishing",
-    "price" => "Contact for Quote",
-    "meta"  => "Advanced Dyeing • Color Excellence",
-    "mainImage" => "img/dyeing.webp",
-    "hoverImage" => "img/dyeing.JPG",
+    "title" => "Product Name:",
+    "type" => "Category Name",
+    "meta"  => "Color:",
+    "mainImage" => "img/products/card1/item_normal.webp",
+    "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
       [
-        "img1" => "img/dyeing.webp",
-        "img2" => "img/dyeing.JPG",
-        "thumb" => "img/dyeing.webp",
-        "title" => "Dyeing & Finishing",
-        "meta" => "Advanced Color Solutions"
+        "img1" => "img/products/card1/item_normal.webp",
+        "img2" => "img/products/card1/item_hover.webp",
+        "thumb" => "img/products/card1/item_thumb.webp",
+        "title" => "Premium Textile Collection",
+        "meta" => "Original White • Premium Quality"
+      ],
+      [
+        "img1" => "img/products/card1/item_black_normal.webp",
+        "img2" => "img/products/card1/item_black_hover.webp",
+        "thumb" => "img/products/card1/item_black_thumb.webp",
+        "title" => "Black Edition Collection",
+        "meta" => "Black Edition • Premium"
+      ],
+      [
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
+        "title" => "Pink Collection",
+        "meta" => "Pink Edition • Stylish"
+      ],
+      [
+        "img1" => "img/products/card1/item_vintage_normal.webp",
+        "img2" => "img/products/card1/item_vintage_hover.webp",
+        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "title" => "Vintage Collection",
+        "meta" => "Vintage Style • Limited Edition"
       ]
     ]
   ],
   [
-    "title" => "All Over Print (AOP)",
-    "price" => "Contact for Quote",
-    "meta"  => "Custom Printing • Innovative Designs",
-    "mainImage" => "img/aop.webp",
-    "hoverImage" => "img/aop.JPG",
+    "title" => "Product Name:",
+    "type" => "Category Name",
+    "meta"  => "Color:",
+    "mainImage" => "img/products/card1/item_normal.webp",
+    "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
       [
-        "img1" => "img/aop.webp",
-        "img2" => "img/aop.JPG",
-        "thumb" => "img/aop.webp",
-        "title" => "All Over Print (AOP)",
-        "meta" => "Custom Print Solutions"
+        "img1" => "img/products/card1/item_normal.webp",
+        "img2" => "img/products/card1/item_hover.webp",
+        "thumb" => "img/products/card1/item_thumb.webp",
+        "title" => "Premium Textile Collection",
+        "meta" => "Original White • Premium Quality"
+      ],
+      [
+        "img1" => "img/products/card1/item_black_normal.webp",
+        "img2" => "img/products/card1/item_black_hover.webp",
+        "thumb" => "img/products/card1/item_black_thumb.webp",
+        "title" => "Black Edition Collection",
+        "meta" => "Black Edition • Premium"
+      ],
+      [
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
+        "title" => "Pink Collection",
+        "meta" => "Pink Edition • Stylish"
+      ],
+      [
+        "img1" => "img/products/card1/item_vintage_normal.webp",
+        "img2" => "img/products/card1/item_vintage_hover.webp",
+        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "title" => "Vintage Collection",
+        "meta" => "Vintage Style • Limited Edition"
       ]
     ]
   ],
   [
-    "title" => "Embroidery Services",
-    "price" => "Contact for Quote",
-    "meta"  => "Exquisite Embroidery • Premium Finish",
-    "mainImage" => "img/embroidery.webp",
-    "hoverImage" => "img/embroidery.JPG",
+    "title" => "Product Name:",
+    "type" => "Category Name",
+    "meta"  => "Color:",
+    "mainImage" => "img/products/card1/item_normal.webp",
+    "hoverImage" => "img/products/card1/item_hover.webp",
     "variants" => [
       [
-        "img1" => "img/embroidery.webp",
-        "img2" => "img/embroidery.JPG",
-        "thumb" => "img/embroidery.webp",
-        "title" => "Embroidery Services",
-        "meta" => "Premium Embroidery Work"
+        "img1" => "img/products/card1/item_normal.webp",
+        "img2" => "img/products/card1/item_hover.webp",
+        "thumb" => "img/products/card1/item_thumb.webp",
+        "title" => "Premium Textile Collection",
+        "meta" => "Original White • Premium Quality"
+      ],
+      [
+        "img1" => "img/products/card1/item_black_normal.webp",
+        "img2" => "img/products/card1/item_black_hover.webp",
+        "thumb" => "img/products/card1/item_black_thumb.webp",
+        "title" => "Black Edition Collection",
+        "meta" => "Black Edition • Premium"
+      ],
+      [
+        "img1" => "img/products/card1/item_pink_normal.webp",
+        "img2" => "img/products/card1/item_pink_hover.webp",
+        "thumb" => "img/products/card1/item_pink_thumb.webp",
+        "title" => "Pink Collection",
+        "meta" => "Pink Edition • Stylish"
+      ],
+      [
+        "img1" => "img/products/card1/item_vintage_normal.webp",
+        "img2" => "img/products/card1/item_vintage_hover.webp",
+        "thumb" => "img/products/card1/item_vintage_thumb.webp",
+        "title" => "Vintage Collection",
+        "meta" => "Vintage Style • Limited Edition"
       ]
     ]
-  ]
+  ],
+  
 ];
 ?>
 
@@ -150,8 +256,8 @@ $products = [
                 <div class="arrow right" aria-label="Next">▶</div>
             </div>
             <div class="product-info">
-                <div class="product-price"><?= $product['price'] ?></div>
-                <div class="product-title"><?= $product['title'] ?></div>
+              <div class="product-title"><?= $product['title'] ?></div>
+                <div class="product-type"><?= $product['type'] ?></div>
                 <div class="product-meta"><?= $product['meta'] ?></div>
                 <!-- <div class="product-actions mt-3">
                     <a href="/?page=contact" class="btn btn-primary btn-sm">Get Quote</a>
@@ -161,6 +267,7 @@ $products = [
         </article>
         <?php endforeach; ?>
     </div>
+    
 </div>
 
 <style>
@@ -264,6 +371,7 @@ $products = [
     position: relative;
     padding: 15px;
     background: #f8f9fa;
+    padding-left: 40px;
 }
 
 .swatch-slider {

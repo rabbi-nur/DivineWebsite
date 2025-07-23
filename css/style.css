@@ -1664,7 +1664,7 @@ a {
   margin-top: 50px;
   padding: 40px 0px;
   position: relative;
-  background: #e9e9e9;
+  background: #fff;
 }
 
 .single-dg-certificate img {
@@ -1812,7 +1812,7 @@ a {
 /*======Buyer/clients section start ========*/
 .clients-section {
       padding: 60px 20px;
-      background-color: #fff;
+      background-color: #FBF9F8;
       text-align: center;
     }
 
@@ -2187,6 +2187,7 @@ a {
       padding-bottom: 8px;
       scrollbar-width: none;
     }
+    
 
     .swatch-slider::-webkit-scrollbar {
       display: none;
