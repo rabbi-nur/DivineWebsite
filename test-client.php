@@ -26,19 +26,82 @@
     .clients-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 12px; /* adds space between boxes */
+      gap: 10px; /* adds space between boxes */
       max-width: 1200px;
       margin: 0 auto;
     }
 
-    .client-logo {
+    .client-logo:nth-child(1) {
       background: #fff;
       padding: 30px;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 140px;
-      box-shadow: 0 0 0 1px #ccc; /* fake border */
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(2) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(3) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(4) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(5) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(6) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(7) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
+    }
+	.client-logo:nth-child(8) {
+      background: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      box-shadow: 1px 1px 10px 3px #ccc; 
     }
 
     .client-logo img {
@@ -48,9 +111,9 @@
       filter: grayscale(100%);
       transition: filter 0.3s ease;
     }
-
-    .client-logo img:hover {
-      filter: grayscale(0%);
+	
+	.client-logo img:hover {
+      filter: grayscale(5%);
     }
 
     /* Responsive: 2 columns */
@@ -73,14 +136,14 @@
   <section class="clients-section">
     <h2 class="section-title">Our Clients</h2>
     <div class="clients-grid">
-      <div class="client-logo"><img src="img/client1.png" alt="Client 1" /></div>
-      <div class="client-logo"><img src="img/client2.png" alt="Client 2" /></div>
-      <div class="client-logo"><img src="img/client3.png" alt="Client 3" /></div>
-      <div class="client-logo"><img src="img/client4.png" alt="Client 4" /></div>
-      <div class="client-logo"><img src="img/client5.png" alt="Client 5" /></div>
-      <div class="client-logo"><img src="img/client6.png" alt="Client 6" /></div>
-      <div class="client-logo"><img src="img/client7.png" alt="Client 7" /></div>
-      <div class="client-logo"><img src="img/client8.png" alt="Client 8" /></div>
+      <div class="client-logo"><img src="img/logo-1.png" alt="Client 1" /></div>
+      <div class="client-logo"><img src="img/logo-2.png" alt="Client 2" /></div>
+      <div class="client-logo"><img src="img/logo-3.png" alt="Client 3" /></div>
+      <div class="client-logo"><img src="img/logo-4.png" alt="Client 4" /></div>
+      <div class="client-logo"><img src="img/logo-5.png" alt="Client 5" /></div>
+      <div class="client-logo"><img src="img/logo-6.png" alt="Client 6" /></div>
+      <div class="client-logo"><img src="img/logo-7.png" alt="Client 7" /></div>
+      <div class="client-logo"><img src="img/logo-8.png" alt="Client 8" /></div>
     </div>
   </section>
 
