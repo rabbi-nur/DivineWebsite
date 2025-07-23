@@ -18,7 +18,7 @@ function render_section_title($title, $subtitle = '', $show_icon = true) {
             stroke-width="1.5"
             stroke-linecap="square"
             stroke-miterlimit="10"
-            style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
+            style="height: 24px; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
             <g transform="scale(1.5)">
             <polyline points="0,17 8,8 18,17 27,8"/>
             </g>

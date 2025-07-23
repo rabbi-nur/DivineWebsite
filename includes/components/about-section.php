@@ -4,17 +4,17 @@
       <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
         <div class="section-title position-relative pb-3 mb-5">
           <svg xmlns="http://www.w3.org/2000/svg"
-               viewBox="-5 0 45 30"
-               fill="none"
-               stroke="#75983C"
-               stroke-width="1.5"
-               stroke-linecap="square"
-               stroke-miterlimit="10"
-               style="height: 1.5em; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
+            viewBox="-5 0 45 30"
+            fill="none"
+            stroke="#75983C"
+            stroke-width="1.5"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            style="height: 24px; width: auto; vertical-align: middle; margin-right: 6px; margin-top: -8px;">
             <g transform="scale(1.5)">
-              <polyline points="0,17 8,8 18,17 27,8"/>
+            <polyline points="0,17 8,8 18,17 27,8"/>
             </g>
-          </svg>
+        </svg>
           <span style="color: #79B905; display: inline-flex; align-items: center; font-size: 19px; font-weight: 400;">About Divine Group</span>
           <h2 class="mb-0 mt-2">5 Reasons We are special</h2>
         </div>
@@ -31,7 +31,7 @@
             <h6 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Superior Product Quality</h6>
           </div>
         </div>
-        <?php render_cta_button('Explore More'); ?>
+        <?php render_cta_button('Read More'); ?>
       </div>
       <div class="col-lg-6 pe-lg-0" style="min-height: 500px;">
         <div class="position-relative h-100">

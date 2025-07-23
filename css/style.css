@@ -1510,6 +1510,43 @@ a {
 
 /*sustainability start*/
 
+/*btn*/
+
+.sus-btn {
+  background-color: #79B905;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  position: relative;
+}
+.sus-btn:hover{
+  background-color: #001819;
+  color: white;
+}
+.sus-btn .triangle-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 14px solid #fff;
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: border-right-color 0.3s;
+}
+.sus-btn:hover .triangle-icon {
+  border-right-color: #85c41c;
+}
+
+/*btn end*/
+
+
 .sustainability-section {
   background: url('../img/sus-bg.jfif') no-repeat center center/cover;
     background-color: rgb(78, 67, 67) ;
@@ -1869,8 +1906,8 @@ a {
     .client-logo img {
       max-width: 100%;
       max-height: 80px;
-      object-fit: contain;
-      filter: grayscale(100%);
+      /* object-fit: contain;
+      filter: grayscale(100%); */
       transition: filter 0.3s ease;
     }
 	
@@ -1930,6 +1967,9 @@ a {
 }
 
 /* New sustainability css start */
+.sus-btn{
+
+}
 
 .dg-sustainable-section {
   padding: 60px 20px;
