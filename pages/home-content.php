@@ -21,7 +21,7 @@ render_hero_slider();
     </div>
     <div class="acc-container">
         <!-- Spinning (Always open) -->
-        <div class="acc-panel acc-first active" style="background-image:url('img/spinning.webp')">
+        <!-- <div class="acc-panel acc-first active" style="background-image:url('img/spinning.webp')">
             <div class="acc-overlay-inactive"></div>
             <div class="acc-heading-vertical">SPINNING</div>
             <div class="acc-content first-acc" style="display:block;">
@@ -34,7 +34,7 @@ render_hero_slider();
                 </div>
                 <div>Hello</div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Spinning -->
         <div class="acc-panel acc-spinning " style="background-image:url('img/spinning.webp')">
