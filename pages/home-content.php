@@ -16,8 +16,9 @@ render_hero_slider();
 
 <!-- Process Section -->
 <section class="dg-process-section">
-    <div class="dg-container">
-        <?php render_section_title('Our Process', 'Driving Impact Through Responsible Innovation'); ?>
+     <div class="dg-section-title text-center">
+        <h2 class="dg-title">Our Process</h2>
+        <p class="dg-subtitle">Driving Impact Through Responsible Innovation</p>
     </div>
     <div class="acc-container">
         <!-- Spinning (Always open) -->
