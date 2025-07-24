@@ -665,7 +665,7 @@ a {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6); /* blackish overlay */
+  background-color: rgba(0, 0, 0, 0.4); /* blackish overlay */
   z-index: 1;
 }
 
@@ -2218,13 +2218,13 @@ a {
 
 .acc-container {
   display: flex;
-  width: 100%; /* initialq width */
+  width: 70%; /* initialq width */
   height: 75vh;
   overflow: hidden;
 }
 
 .acc-container.active {
-  width: 100%; /* expand to full width on active */
+  width: 70%; /* expand to full width on active */
 }
 
 .acc-panel {
@@ -2274,14 +2274,13 @@ a {
 
   /* Inactive heading text */
   .acc-heading-vertical {
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     text-orientation: mixed;
-    transform: rotate(180deg);
-    font-size: 20px;
-    font-weight: bold;
+    transform: rotate(0deg);
+    font-size: 24px;
     color: #fff;
+    text-align: start;
     white-space: nowrap;
-    text-align: center;
     z-index: 2;
     pointer-events: none;
   }
@@ -2333,11 +2332,6 @@ a {
     align-items: center;
     margin-bottom: 10px;
     border-radius: 10px;
-  }
-
-  .acc-lottie-container {
-    width: 150px;
-    height: 150px;
   }
 
   .acc-text-box {
