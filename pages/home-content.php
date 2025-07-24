@@ -22,22 +22,22 @@ render_hero_slider();
     <div class="acc-container">
         <!-- Spinning (Always open) -->
         <div class="acc-panel acc-first active" style="background-image:url('img/spinning.webp')">
-            <!-- <div class="acc-overlay-inactive"></div> -->
-            <!-- <div class="acc-heading-vertical">SPINNING</div> -->
+            <div class="acc-overlay-inactive"></div>
+            <div class="acc-heading-vertical">SPINNING</div>
             <div class="acc-content first-acc" style="display:block;">
-                <!-- <div class="acc-left">
+                <div class="acc-left">
                     <div class="acc-text-box">
                         <h2>Spinning</h2>
                         <p>Spinning is the fundamental process in textile manufacturing where raw fibers are transformed into yarn. This process begins with cleaning and preparing fibers like cotton, polyester, or viscose. The fibers are then carded and combed to align them and remove impurities. Next, they are drawn out and twisted to form continuous strands called yarn. The quality of the spinning process directly affects the strength, smoothness, and durability of the yarn, which in turn influences the quality of the final fabric. There are various spinning methods including ring spinning, rotor spinning, and air-jet spinning, each suitable for different types of fibers and end uses. Spinning is essential in both woven and knitted fabric production and sets the foundation for the entire textile value chain.</p><br>
                         <?php render_cta_button('Explore More'); ?>
                     </div>
-                </div> -->
+                </div>
                 <div>Hello</div>
             </div>
         </div>
 
         <!-- Spinning -->
-        <!-- <div class="acc-panel acc-spinning " style="background-image:url('img/spinning.webp')">
+        <div class="acc-panel acc-spinning " style="background-image:url('img/spinning.webp')">
             <div class="acc-overlay-inactive"></div>
             <div class="acc-heading-vertical">SPINNING</div>
             <div class="acc-content">
@@ -49,7 +49,7 @@ render_hero_slider();
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         
         <!-- Yarn Dyeing -->
