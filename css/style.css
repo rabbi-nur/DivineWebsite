@@ -1,4 +1,6 @@
 /* === About Page Styles (.ab_) === */
+
+
 h1,h2,h3,h4 {
   font-weight: 700;
 }
@@ -514,11 +516,13 @@ html,body{
   padding: 0;
   overflow-x: hidden;
   width: 100%;
+  font-family: 'poppins' !important;
 }
 :root {
     --primary: #002219;
     --light: #F5F5F5;
     --dark: #353535;
+    font-family: 'poppins' !important;
 }
 .fw-medium {
     font-weight: 500 !important;
@@ -540,12 +544,12 @@ html,body{
     z-index: 99;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
-  font-family: 'poppins', sans-serif !important;
+  font-family: 'poppins', -serif !important;
 
-}
+} */
 a {
   text-decoration: none;
   color: inherit;
@@ -2237,9 +2241,15 @@ a {
   align-items: center;
   cursor: pointer;
 
-  /* Performance hints */
-  transition: flex-basis 0.5s ease; /* Animate flex-basis for smoother GSAP */
-  will-change: flex-basis, opacity;
+  /* Smooth animation */
+  transition: flex-basis 0.1s ease;
+
+  /* GPU optimization hint */
+  will-change: transform, flex-basis;
+
+  /* Prevent flicker in some browsers */
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
   /* Hover glow effect */

@@ -20,8 +20,7 @@ $sustainability_cards = $sustainability_cards ?? [
                 <img src="<?= $card['icon'] ?>" alt="<?= htmlspecialchars($card['title']) ?>" class="dg-icon">
                 <h3><?= htmlspecialchars($card['title']) ?></h3>
                 <p><?= htmlspecialchars($card['description']) ?></p>
-                <!-- <a href="#"><i class="fa fa-leaf sus-btn"></i> Read More</a> -->
-                <?php render_cta_button('Explore More'); ?>
+                <a href="#"><i class="fa fa-leaf"></i> Read More</a>
             </div>
             <?php endforeach; ?>
         </div>
