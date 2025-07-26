@@ -66,6 +66,7 @@ class Layout {
             <!-- Custom Styles -->
             <link href="css/bootstrap.min.css" rel="stylesheet">
             <link href="css/style.css" rel="stylesheet">
+            <link href="css/edgy.css" rel="stylesheet">
             
             <?php foreach($this->styles as $style): ?>
             <link rel="stylesheet" href="<?= $style ?>">
@@ -93,6 +94,7 @@ class Layout {
         
         <!-- Custom Scripts -->
         <script src="js/main.js" defer></script>
+        <script src="js/edgy.js" defer></script>
         
         <?php foreach($this->scripts as $script): ?>
         <script src="<?= $script ?>" defer></script>
